@@ -1,0 +1,40 @@
+name: ✨ Feature Request
+description: Suggest a new idea, lesson, or improvement.
+title: "[Feature] "
+labels: [enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature for **luaOrbiter**! Let us know how it helps others.
+
+  - type: input
+    id: title
+    attributes:
+      label: What’s the idea?
+      placeholder: “Add LuaJIT performance profiling lesson”
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: What should it do? How would it work?
+      placeholder: Describe the use case in detail
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: Who benefits and how?
+      description: Explain how learners or users will gain from this
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional notes or examples
+      description: Code samples, screenshots, diagrams...

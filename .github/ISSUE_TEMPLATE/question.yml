@@ -1,0 +1,23 @@
+name: ❓ Question / Help
+description: Ask about something unclear or get help with usage
+title: "[Question] "
+labels: [question]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We're here to help! Ask anything about Lua, the platform, or a concept from the course.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      placeholder: “How do I use coroutines to simulate multitasking?”
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context or links
+      description: Include course section, links, screenshots, or error logs

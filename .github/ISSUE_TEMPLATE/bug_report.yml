@@ -1,0 +1,57 @@
+name: 🐛 Bug Report
+description: Report something that isn't working as expected.
+title: "[Bug] "
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug in **luaOrbiter**! Please complete the form below.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Brief summary
+      description: A short, clear summary of the bug
+      placeholder: e.g., “Lesson page crashes on load”
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the steps to trigger the bug
+      placeholder: |
+        1. Go to the 'Beginner Lesson'
+        2. Click "Run Code"
+        3. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: I expected the code output to display "Hello World"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or errors
+      render: shell
+      placeholder: Paste terminal or browser console output
+
+  - type: input
+    id: env
+    attributes:
+      label: Environment info
+      placeholder: OS, Node version, Lua version, browser...
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other information, links, or screenshots?

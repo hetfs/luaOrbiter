@@ -1,0 +1,8 @@
+{
+  "label": "🚧Intermediate",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Intermediate Lua programming concepts and techniques"
+  }
+}
