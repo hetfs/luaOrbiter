@@ -4,24 +4,23 @@
 
 # 🌌 luaOrbiter
 
-**luaOrbiter** is a project-based, open-source Lua learning course designed to take you from **absolute beginner** to **expert**, with a strong focus on AI scripting, embedded systems, game development, and developer tools.
+**luaOrbiter** delivers a project-based, open-source [Lua](https://www.lua.org/) learning journey from **absolute beginner** to **expert**. The course emphasizes AI scripting, embedded systems, game development, and developer tools.
 
-Built on top of the [Docusaurus](https://docusaurus.io) platform and powered by the [luaDev](https://github.com/hetfs/luaDev) engine, it delivers a modular, hands-on experience that mirrors real-world Lua usage in production environments.
+Powered by the [luaDev](https://github.com/hetfs/luaDev) engine and built on [Docusaurus](https://docusaurus.io), this platform offers modular, hands-on learning mirroring real-world Lua usage.
 
 ---
 
-## 📖 What You'll Learn
+## 📖 What you'll learn
 
 - ✅ Lua fundamentals: syntax, functions, tables, flow control
 - 🧠 Intermediate: coroutines, modules, metatables
-- 🚀 Advanced: LuaJIT, FFI, C integration, async design
+- 🚀 Advanced: LuaJIT, Foreign Function Interface (FFI), C integration, async design
 - 🎮 Game scripting: behavior trees, AI NPCs, event systems
 - 🔌 Embedded scripting: Redis, ESP32, IoT control
 - 🤖 AI-powered workflows: Python + Lua orchestration
 - 🛠 Tooling: Build systems, linters, DSLs, plugins
 
-All driven by real-world projects like:
-
+Real-world projects include:
 - Text-based games
 - Inventory systems
 - Lua-backed AI bots
@@ -32,13 +31,13 @@ All driven by real-world projects like:
 
 ## 🛠 Built with [luaDev](https://github.com/hetfs/luaDev)
 
-`luaDev` is a powerful Lua/LuaJIT build system that powers the backend of this learning platform. It automates cross-platform builds, version-aware CMake scaffolding, and structured logging.
+`luaDev` powers this platform's backend as a powerful Lua/LuaJIT build system. It automates cross-platform builds, version-aware CMake scaffolding, and structured logging.
 
-If you're writing Lua in native environments, you should definitely check it out!
+Lua developers working in native environments should explore this tool!
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting started
 
 ```bash
 git clone https://github.com/hetfs/luaOrbiter.git
@@ -47,13 +46,13 @@ npm install
 npm run start
 ```
 
-Then visit [http://localhost:3000](http://localhost:3000/) to start learning!
+Visit [http://localhost:3000](http://localhost:3000/) to begin learning.
 
 ---
 
-## 📚 Course Structure
+## 📚 Course structure
 
-Content is organized by level:
+The course organizes content by level:
 
 | Level | Focus |
 | --- | --- |
@@ -62,24 +61,20 @@ Content is organized by level:
 | 👨‍🏫 Advanced | C bindings, LuaJIT, optimizations |
 | 🧠 Expert | DSLs, VM internals, distributed Lua |
 
-Explore lesson paths in `docs/` or visit the deployed site (coming soon).
+Explore lessons in `docs/` or visit the deployed site (coming soon).
 
 ---
 
-## 💬 Community & Contribution
+## 💬 Community & contribution
 
-We welcome contributions of all kinds!
+ Welcome contributions of all kinds!
 
 - Suggest new lessons or examples
-  
-- Fix typos or bugs in docs
-  
-- Translate content into other languages
-  
+- Fix typos or documentation bugs
+- Translate content
 - Add interactive diagrams or Lua tools
-  
 
-📖 See our [Contributing Guide](https://chatgpt.com/c/docs/contributing.md)  
+📖 See the [Contributing Guide](https://chatgpt.com/c/docs/contributing.md)  
 🐛 [Open an issue](https://github.com/hetfs/luaOrbiter/issues/new/choose)  
 🤝 [Code of Conduct](https://chatgpt.com/c/CODE_OF_CONDUCT.md)
 
@@ -87,26 +82,20 @@ We welcome contributions of all kinds!
 
 ## 🗺 Roadmap
 
-Check out our [ROADMAP.md](https://chatgpt.com/c/ROADMAP.md) for upcoming:
-
+Check the [ROADMAP.md](./ROADMAP.md) for upcoming features:
 - AI scripting modules
-  
 - Embedded scripting tracks
-  
 - Visual tooling and live editors
-  
 - LuaJIT and performance labs
-  
-- Community initiatives (Discord, guest lessons, outreach)
-  
+- Community initiatives (Discord, guest lessons)
 
 ---
 
 ## 📄 License
 
-MIT © 2025 [HETFS Labs](https://github.com/hetfs)
+MIT License © 2025 [HETFS Labs](https://github.com/hetfs)
 
 ---
 
-> *“Lua does more with less — 20% of its features solve 80% of real-world problems.”*  
-> — Roberto Ierusalimschy (Creator of Lua)
+> *"Lua does more with less—20% of its features solve 80% of real-world problems."*  
+> — Roberto Ierusalimschy (Lua Creator)

@@ -1,14 +1,14 @@
-# 🛣️ luaOrbiter Roadmap
+# 🛣️ luaOrbiter roadmap
 
-Welcome to the official roadmap for **luaOrbiter** — a hands-on Lua learning platform built with real-world projects, AI applications, and embedded scripting.
+Welcome to the official roadmap for **luaOrbiter** a hands-on Lua learning platform built with real-world projects, AI applications, and embedded scripting.
 
-This document outlines planned milestones, features, and enhancements. Contributions toward any of these are welcome via pull requests or issue suggestions.
+This document outlines planned milestones, features, and enhancements. The luaOrbiter team welcomes contributions toward any of these via pull requests or issue suggestions.
 
 ---
 
 ## ✅ Completed
 
-- [x] Core course layout using Docusaurus
+- [x] Core course layout using `Docusaurus`
 - [x] Beginner lesson module: Syntax, tables, functions
 - [x] Project-based learning structure (game, AI, tools, embedded)
 - [x] CMake + LuaJIT template support for build systems
@@ -17,10 +17,10 @@ This document outlines planned milestones, features, and enhancements. Contribut
 
 ---
 
-## 🏗️ In Progress
+## 🏗️ In progress
 
-- [ ] Intermediate lessons: Coroutines, metatables, modular architecture
-- [ ] AI scripting lab: Roblox enemy AI, Edge AI orchestration
+- [ ] Intermediate lessons: coroutines, metatables, modular architecture
+- [ ] AI scripting lab: Roblox non-player character (NPC) AI, Edge AI orchestration
 - [ ] Embedded scripting track (ESP32, Redis, IoT)
 - [ ] Docs page: "Choosing the Right Lua Version"
 - [ ] GitHub Pages deployment with custom domain
@@ -28,16 +28,16 @@ This document outlines planned milestones, features, and enhancements. Contribut
 
 ---
 
-## 🧠 Upcoming Features
+## 🧠 Upcoming features
 
-### 📚 Content Modules
+### 📚 Content modules
 
 - [ ] 🔐 **Security in Lua**: Sandboxing, runtime isolation
-- [ ] 🛠 **Dev Tools**: Building linters, plugins, and syntax-aware tools
+- [ ] 🛠 **dev tools**: Building linters, plugins, and syntax-aware tools
 - [ ] 📈 **Performance Profiling**: LuaJIT tuning, memory GC control
 - [ ] 🔧 **Lua VM Internals**: Bytecode, GC, stack introspection
 
-### 🧩 Technical Add-ons
+### 🧩 Technical add-ons
 
 - [ ] Web-based code editor with live Lua interpreter
 - [ ] Visual lesson progress tracker
@@ -47,24 +47,24 @@ This document outlines planned milestones, features, and enhancements. Contribut
 
 ---
 
-## 🌍 Community & Ecosystem Goals
+## 🌍 Community & ecosystem goals
 
 - [ ] Launch `luaOrbiter Discord` for Q&A and mentoring
-- [ ] Outreach campaign in African dev communities
-- [ ] "Open Lesson Week" — guest-written lessons and case studies
+- [ ] Outreach campaign in developer communities across the world
+- [ ] "Open Lesson Week"—guest-written lessons and case studies
 - [ ] Publish starter templates (game modding, IoT script, Redis AI module)
 
 ---
 
-## 📌 How to Help
+## 📌 How to help
 
 Interested in contributing to any of these goals?
 
 - Check open [Issues](https://github.com/hetfs/luaOrbiter/issues)
-- Submit a PR for any marked item above
+- Submit a PR for any marked item in the roadmap
 - Propose new ideas in [Discussions](https://github.com/hetfs/luaOrbiter/discussions)
 
 ---
 
-> _“This is more than a course — it’s an ecosystem for the next generation of Lua developers.”_  
-> — Team `luaOrbiter`
+> _"This is more than a course—it's an ecosystem for the next generation of Lua developers."_  
+> —Team `luaOrbiter`
