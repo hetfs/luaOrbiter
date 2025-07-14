@@ -1,5 +1,5 @@
 ---
-id: functions
+id: 06-lua-functions
 title: Functions and Scope
 sidebar_position: 6
 ---
@@ -131,6 +131,6 @@ print(multiply(4, 5))
 * [ ] I defined functions with parameters and return values
 * [ ] I used local vs global variables
 * [ ] I explored closures and anonymous functions
-* [ ] I marked this lesson complete in my [Progress Tracker](./beginner-checklist.md)
+* [ ] I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

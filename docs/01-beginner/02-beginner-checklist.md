@@ -42,7 +42,7 @@ Track your progress as you build your Lua foundations. Complete each skill, less
 - [ ] I can automate basic tasks using Lua  
 - [ ] I feel confident moving to the Intermediate track  
 
-> ✅ Once all boxes are checked, you're ready to explore [Intermediate Systems](../02-intermediate/intermediate-learn.md)!
+> ✅ Once all boxes are checked, you're ready to explore [Intermediate Systems](/docs/02-intermediate/01-what-intermediate-learn.md)!
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: project-text-adventure
+id: 08-lua-beginner-project
 title: Project – Build a Text Adventure Game
 sidebar_position: 8
 ---
@@ -37,12 +37,10 @@ Here’s what the game should do:
 ## 🧩 Room Map
 
 ```
-
 Entrance ↔ Hallway ↔ Library
 ↓
 Treasure Room
-
-````
+```
 
 ---
 
@@ -127,7 +125,7 @@ while true do
     print("Unknown command.")
   end
 end
-````
+```
 
 ---
 
@@ -169,6 +167,6 @@ A locked door blocks the treasure room!
 * [ ] I used conditionals and game logic
 * [ ] I created multiple rooms and exits
 * [ ] I tracked player state using variables/tables
-* [ ] I marked this lesson complete in my [Progress Tracker](./beginner-checklist.md)
+* [ ] I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

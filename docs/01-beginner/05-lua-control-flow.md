@@ -1,6 +1,5 @@
-
 ---
-id: control-flow
+id: 05-lua-control-flow
 title: Control Flow
 sidebar_position: 5
 ---
@@ -155,6 +154,6 @@ end
 * [ ] I wrote `if` / `else` conditions
 * [ ] I created loops with `while`, `for`, and `repeat`
 * [ ] I used `break` to stop loops early
-* [ ] I marked this lesson complete in my [Progress Tracker](./beginner-checklist.md)
+* [ ] I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

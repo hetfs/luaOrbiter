@@ -1,5 +1,5 @@
 ---
-id: 01-beginner-learn
+id: 01-what-beginner-learn
 title: 👶 What Beginners Will Learn
 sidebar_position: 1
 ---
@@ -54,10 +54,3 @@ By the end of this section, you'll be writing your own Lua scripts, building sma
 > — **luaOrbiter Team**
 
 ---
-
-## 🚀 Ready to Begin?
-
-Head to the next lesson: [📘 Lua Basics →](./lua-basics.md)
-
-Or explore the [Beginner Project Lab](./beginner-projects.md) to start hands-on!
-

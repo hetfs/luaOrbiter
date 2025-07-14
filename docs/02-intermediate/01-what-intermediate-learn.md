@@ -1,5 +1,5 @@
 ---
-id: intermediate-learn
+id: 01-what-intermediate-learn
 title: What You'll Learn – Intermediate Lua
 sidebar_position: 1
 ---

@@ -1,5 +1,5 @@
 ---
-id: metatables-oop
+id: 03-metatables-oop
 title: Metatables and OOP in Lua
 sidebar_position: 3
 ---

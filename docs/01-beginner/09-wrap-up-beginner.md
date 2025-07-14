@@ -1,5 +1,5 @@
 ---
-id: wrap-up
+id: 09-wrap-up-beginner
 title: Wrap-Up & What's Next
 sidebar_position: 9
 ---
@@ -44,7 +44,7 @@ Start structuring your code into reusable files using `require()`.
 ```lua
 local player = require("player")
 player.jump()
-````
+```
 
 ### ⚙️ Explore Tools & Ecosystems
 
@@ -67,9 +67,8 @@ player.jump()
 
 ## 📥 Downloadable Resources
 
-📝 [Beginner Checklist PDF](../02-beginner-checklist.md)
-📘 [All Beginner Lessons as PDF](../beginner-lessons.pdf) *(coming soon)*
-📦 [Starter Project Templates](https://github.com/hetfs/luaOrbiter)
+📝 [Beginner Checklist PDF](./02-beginner-checklist.md)
+📘 [All Beginner Lessons as PDF](./beginner-lessons.pdf) *(coming soon)*
 
 ---
 
@@ -77,15 +76,13 @@ player.jump()
 
 * [ ] I reviewed all beginner concepts
 * [ ] I completed the text adventure project
-* [ ] I updated my [Progress Tracker](./beginner-checklist.md)
+* [ ] I updated my [Progress Tracker](./02-beginner-checklist.md)
 
 > You’re ready to take on more complex challenges — and maybe teach others too!
 
 ---
 
 ## 🛣️ Ready for Intermediate?
-
-Your next stop: [Intermediate Lua](../02-intermediate/intermediate-learn.md)
 
 Thanks for being part of the LuaOrbiter community!
 Keep exploring, building, and orbiting new ideas 🚀

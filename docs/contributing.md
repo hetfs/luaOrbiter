@@ -1,98 +1,110 @@
 ---
-id: contributing
-title: 🤝 Contributing to luaOrbiter
-sidebar_position: 4
+title: 🤝 Contributing
+sidebar_position: 99
 ---
 
-🤝 How to Contribute
+# 🤝 Contributing to luaOrbiter
 
-Welcome to the **luaOrbiter** open learning project! We're building a world-class Lua curriculum that’s accessible to everyone — and we need your help.
+Welcome, and thank you for your interest in contributing to **luaOrbiter** — a community-powered Lua learning platform designed to help developers grow from beginner to expert.
+
+Whether you're here to fix a typo, add a tutorial, or just suggest an idea — we appreciate you!
 
 ---
 
-## 🚀 Ways You Can Contribute
+## 🚀 How You Can Contribute
 
-### 🧠 Knowledge & Content
+### 📚 Content & Docs
 
-- Improve or add to lessons
-- Suggest better examples
-- Translate documentation
-- Fix typos or improve readability
+- Suggest new lesson topics or project ideas
+- Improve explanations, fix typos, or clarify examples
+- Translate existing content into other languages
 
 ### 🔧 Code Contributions
 
-- Fix bugs or issues in the docs
-- Add new Lua code snippets
-- Improve syntax highlighting or diagrams
-- Add reusable tools or scripts
+- Add Lua code snippets or interactive REPL demos
+- Improve Mermaid diagrams or lesson formatting
+- Submit reusable tools, templates, or enhancements
 
-### 💬 Community Involvement
+### 🌍 Community Involvement
 
+- Review open Pull Requests
+- Help triage issues
 - Answer questions in [GitHub Discussions](https://github.com/hetfs/luaOrbiter/discussions)
-- Test upcoming features
-- Share the project with others
+- Share the project with your developer circle
 
 ---
 
-## 🛠 How to Start
+## 🛠️ Getting Started
 
-1. Fork this repository
-2. Clone your fork:
-  
-  ```bash
-  git clone https://github.com/YOUR_USERNAME/luaOrbiter.git
-  cd luaOrbiter
-  ```
-  
+1. **Fork the Repository**
 
-3. Create a branch:
-  
-  ```bash
-  git checkout -b fix/your-topic
-  ```
-  
-4. Make your changes in `docs/`, `static/`, or elsewhere
-  
-5. Run the dev server:
-  
-  ```bash
-  npm install
-  npm run start
-  ```
-  
-6. Push and open a Pull Request!
-  
+   Go to [github.com/hetfs/luaOrbiter](https://github.com/hetfs/luaOrbiter) and click **Fork**
 
----
+2. **Clone your fork**
 
-## 📝 Best Practices
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/luaOrbiter.git
+   cd luaOrbiter
+3. **Install dependencies**
 
-- Use clear and descriptive commit messages
-  
-- Reference any related issues in your PR
-  
-- Write Lua 5.1–5.4 compatible examples when possible
-  
-- Keep it beginner-friendly — explain *why* not just *how*
-  
-- Make sure your Markdown renders cleanly in Docusaurus
-  
+   ```bash
+   npm install
+   ```
+
+4. **Create a new branch**
+
+   ```bash
+   git checkout -b feature/your-topic
+   ```
+
+5. **Make your changes** inside `docs/`, `static/`, `src/`, etc.
+
+6. **Test locally**
+
+   ```bash
+   npm run start
+   ```
+
+7. **Push and open a Pull Request**
+
+   ```bash
+   git add .
+   git commit -m "Add: new Lua beginner project"
+   git push origin feature/your-topic
+   ```
+
+   Then open a PR to the `main` branch 🎉
 
 ---
 
-## 📄 Contributor Resources
+## ✨ Style Guidelines
 
-- [Contributor Covenant Code of Conduct](https://chatgpt.com/CODE_OF_CONDUCT.md)
-  
-- [Issue Templates](https://github.com/hetfs/luaOrbiter/issues/new/choose)
-  
-- [Pull Request Template](https://github.com/hetfs/luaOrbiter/compare)
-  
+* Use [semantic commit messages](https://www.conventionalcommits.org/en/v1.0.0/):
+
+  * `Add:` for new features or docs
+  * `Fix:` for bugs and typos
+  * `Update:` for improvements or refactors
+* Write Lua examples compatible with **5.1 to 5.4**
+* Keep things beginner-friendly with helpful comments
+* Test that your Markdown renders well in the docs
 
 ---
 
-## 🙌 Thank You
+## 📄 Licensing
 
-Your time, ideas, and contributions help make `luaOrbiter` a powerful, inclusive learning platform. We're excited to build the future of Lua education with you!
+By contributing, you agree your submissions will be released under the [MIT License](https://github.com/hetfs/luaOrbiter/blob/main/LICENSE).
 
-> *“Learning together makes the code stronger.”* — Team luaOrbiter
+You’ll always retain credit — we’re just helping share it with others.
+
+---
+
+## 📎 Related Resources
+
+* 📘 [Beginner Lessons →](./01-beginner/01-what-beginner-learn.md)
+* 🧱 [Installation Guide →](./lua-installation.md)
+* 🔧 View [`CONTRIBUTING.md`](https://github.com/hetfs/luaOrbiter/blob/main/CONTRIBUTING.md)
+
+---
+
+> *“When we teach, we learn. Let’s help others discover the joy of Lua.”*
+> — Team luaOrbiter

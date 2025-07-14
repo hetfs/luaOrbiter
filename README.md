@@ -74,15 +74,15 @@ Explore lessons in `docs/` or visit the deployed site (coming soon).
 - Translate content
 - Add interactive diagrams or Lua tools
 
-📖 See the [Contributing Guide](https://chatgpt.com/c/docs/contributing.md)  
+📖 See the [Contributing Guide](./CONTRIBUTING.md)  
 🐛 [Open an issue](https://github.com/hetfs/luaOrbiter/issues/new/choose)  
-🤝 [Code of Conduct](https://chatgpt.com/c/CODE_OF_CONDUCT.md)
+🤝 [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ---
 
 ## 🗺 Roadmap
 
-Check the [ROADMAP.md](./ROADMAP.md) for upcoming features:
+Check the [Roadmap](./ROADMAP.md) for upcoming features:
 - AI scripting modules
 - Embedded scripting tracks
 - Visual tooling and live editors
@@ -93,7 +93,7 @@ Check the [ROADMAP.md](./ROADMAP.md) for upcoming features:
 
 ## 📄 License
 
-MIT License © 2025 [HETFS Labs](https://github.com/hetfs)
+MIT License © 2025 [HETFS Labs](./LINCENSE-MIT ⚖️)
 
 ---
 

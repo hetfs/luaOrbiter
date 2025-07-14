@@ -1,5 +1,5 @@
 ---
-id: error-handling
+id: 04-error-handling
 title: Error Handling in Lua
 sidebar_position: 4
 ---

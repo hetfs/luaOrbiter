@@ -1,5 +1,5 @@
 ---
-id: variables-and-types
+id: 04-lua-variables-and-types
 title: Variables & Data Types
 sidebar_position: 4
 ---
@@ -154,6 +154,6 @@ print(type(t))
 * [ ] I understand how to declare and assign Lua variables
 * [ ] I used `nil`, `boolean`, `number`, and `string` types
 * [ ] I performed string and number operations
-* [ ] I marked this lesson complete in my [Progress Tracker](./beginner-checklist.md)
+* [ ] I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

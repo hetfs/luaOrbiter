@@ -1,6 +1,6 @@
 ---
-id: intro-to-lua
-title: Intro to Lua
+id: 03-lua-introduction
+title: Introduction to Lua
 sidebar_position: 3
 ---
 
@@ -90,12 +90,8 @@ if you see Hello, lua world! you're goode to go!
 ✅ Lesson Recap
 
 - I understand what Lua is and where it’s used
-  
 - I learned how Lua compares to Python and JavaScript
-  
 - I wrote and ran my first Lua script
-  
-- I marked this lesson complete in my [Progress Tracker](https://chatgpt.com/c/beginner-checklist.md)
-  
+- I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

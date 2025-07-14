@@ -1,5 +1,5 @@
 ---
-id: intermediate-checklist
+id: 02-intermediate-checklist
 title: Intermediate Checklist
 sidebar_position: 2
 ---

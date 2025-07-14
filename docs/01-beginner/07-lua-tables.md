@@ -1,5 +1,5 @@
 ---
-id: tables
+id: 07-lua-tables
 title: Tables (Arrays & Dictionaries)
 sidebar_position: 7
 ---
@@ -20,7 +20,7 @@ local player = {
   score = 100
 }
 print(player.name)  -- Ada
-````
+```
 
 You can think of a table like a JSON object in JavaScript or a dictionary in Python.
 
@@ -160,6 +160,6 @@ print(game.player.name)
 * [ ] I accessed and modified table elements
 * [ ] I used `pairs` and `ipairs` to loop through tables
 * [ ] I used `table.insert()` and `table.remove()`
-* [ ] I marked this lesson complete in my [Progress Tracker](./beginner-checklist.md)
+* [ ] I marked this lesson complete in my [Progress Tracker](./02-beginner-checklist.md)
 
 ---

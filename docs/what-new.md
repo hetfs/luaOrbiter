@@ -4,80 +4,66 @@ title: 🆕 What's New
 sidebar_position: 2
 ---
 
-# 🆕 What's New in luaOrbiter
+# 🆕 What’s New in luaOrbiter
 
-Welcome to the latest updates for **luaOrbiter** — your project-based Lua learning platform powered by real-world systems, AI scripting, and embedded programming.
-
-Here’s what’s recently landed and what’s coming next. Want to contribute? Check out the [Roadmap](./roadmap.md) and [Contributing Guide](./contributing.md)!
+Welcome to the latest updates for **luaOrbiter** — a project-based Lua learning platform built for the next generation of developers. Whether you're scripting game AI, building embedded systems, or integrating with modern cloud platforms, this is your launchpad.
 
 ---
 
-## 📅 July 2025
+## 📅 July 2025 Highlights
 
-### 🔥 New Modules
+### 🔥 New Curriculum Modules
 
-- 🧱 **Beginner Foundations**  
-  - Variables, tables, and control flow lessons complete  
-  - Introductory mini-projects (calculator, NPC scripts)
+- 🧱 **Beginner Foundations**
+  - Core lessons on variables, tables, and control flow now live  
+  - Mini-projects include: calculator, inventory tracker, and simple NPC logic
 
-- 🔧 **Intermediate Systems**  
-  - Modules and metatables now live  
-  - API client and plugin system example added  
+- 🛠 **Intermediate Systems**
+  - Added lessons on modular design, metatables, and OOP in Lua  
+  - Real-world projects: plugin-based CLI and RESTful API client
 
-- 🤖 **AI + Edge Track**  
-  - New content on hybrid AI workflows (Lua + Python + LLMs)  
-  - Edge orchestration diagram using Mermaid
-
----
-
-### 🚀 Platform Improvements
-
-- ✨ Fully integrated with [`luaDev`](https://github.com/hetfs/luaDev) build system  
-  - Autogenerates CMake templates for Lua/LuaJIT versions  
-  - Cross-platform support with structured logs
-
-- 📚 **Skill Progression Timeline**  
-  Visualized via Mermaid for Beginner → Expert pathways
-
-- 🧩 **New Career Path Table**  
-  Shows job titles, stacks, and specialization tracks
+- 🤖 **AI & Edge Computing**
+  - New content on hybrid orchestration: Lua ↔ Python ↔ LLMs  
+  - Mermaid-powered architecture diagrams for edge AI flow
 
 ---
 
-### 💬 Community
+### 🚀 Platform Enhancements
 
-- ✅ Issue templates and PR templates added
-- 🤝 CONTRIBUTING.md live with docs for getting started
-- 📧 Discussions and feedback channels launching soon
+- ✨ Seamless integration with [`luaDev`](https://github.com/hetfs/luaDev)
+  - Auto-generates CMake configs for Lua/LuaJIT versions
+  - Dry-run support, cross-platform logs, Markdown reporting
 
----
+- 📚 **Skill Progression Map**
+  - Visual roadmap (Mermaid) from Beginner to Expert
 
-## ⚙️ Upcoming (August 2025)
-
-- 🌍 Translations: French 🇫🇷 and Twi 🇬🇭
-- 🧪 Interactive code editor with Lua sandbox
-- 🧠 DSL development lessons (build your own Lua-like language!)
-- 📦 VSCode snippet extension for Lua + luaOrbiter
+- 💼 **Career Path Matrix**
+  - New table maps domains, tools, and growth roles in Lua-centric careers
 
 ---
 
-## 🗓 Release Cadence
+## 🛠 Coming in August 2025
 
-| Type         | Frequency       |
-|--------------|-----------------|
-| 🔖 Content   | Weekly          |
-| 🛠 Features  | Bi-weekly       |
-| 📢 Community | Monthly updates |
+- 🌍 **Translations**: French 🇫🇷 and Twi 🇬🇭 versions of beginner content  
+- 🧪 **Live Code Playground**: Run Lua in-browser via a sandbox editor  
+- 🧠 **Language Design Lessons**: Create your own Lua-like DSL  
+- 📦 **VSCode Snippets Extension** for luaOrbiter patterns and idioms
 
 ---
 
-## 📌 Keep Up With luaOrbiter
+## 📆 Release Cadence
 
-- Watch the [GitHub Repo](https://github.com/hetfs/luaOrbiter)
-- Join the upcoming Discord server (stay tuned!)
-- Follow release notes in [CHANGELOG.md](../CHANGELOG.md) (coming soon)
+| Release Type   | Frequency        |
+|----------------|------------------|
+| 🔖 Content      | Weekly           |
+| 🛠 Features     | Every 2 weeks    |
+| 💬 Community    | Monthly updates  |
 
-> _“We’re building more than a course — we’re shaping the next generation of Lua developers.”_  
+---
+
+## 📌 Stay Connected
+
+- ⭐ [Star or Watch the Repo](https://github.com/hetfs/luaOrbiter) for updates  
+
+> _“luaOrbiter isn’t just a course — it’s a movement for the future of lightweight, powerful development.”_  
 > — Team luaOrbiter
-
----
