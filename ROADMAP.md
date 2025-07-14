@@ -68,7 +68,6 @@ Interested in contributing to any of these goals?
 
 > _"This is more than a course—it's an ecosystem for the next generation of Lua developers."_  
 > — Team `luaOrbiter`
-```
 
 ### Key Changes Made:
 1. **Capitalization Fixes** (Microsoft.Headings):
