@@ -1,0 +1,9 @@
+{
+  "label": "Lua Playground",
+  "position": 14,
+  "link": {
+    "type": "generated-index",
+    "title": "🧪 Lua Playground",
+    "description": "Try Lua code live in your browser with the interactive playground powered by Fengari. Learn by doing — directly inside the docs."
+  }
+}

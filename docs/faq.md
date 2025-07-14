@@ -1,5 +1,6 @@
 ---
-title: Lua FAQ
+title: ❓Lua FAQ
+sidebar_position: 99
 description: Frequently asked questions about Lua programming
 ---
 

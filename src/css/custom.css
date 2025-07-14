@@ -1,30 +1,90 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* 🌞 Light Mode — Refined Amber Elegance */
+  --ifm-color-primary: #e67e22;             /* Warm terracotta-amber */
+  --ifm-color-primary-dark: #d35400;         /* Deep burnt orange */
+  --ifm-color-primary-darker: #a04000;       /* Rich autumn shade */
+  --ifm-color-primary-darkest: #7b341e;     /* Dark clay tone */
+
+  --ifm-color-primary-light: #f39c12;        /* Golden amber */
+  --ifm-color-primary-lighter: #f5b041;      /* Soft honey */
+  --ifm-color-primary-lightest: #fdebd0;     /* Creamy base */
+
+  --ifm-background-color: #fefaf6;           /* Warm parchment */
+  --ifm-background-surface-color: #ffffff;   /* Pure white */
+  --ifm-font-color-base: #2c3e50;            /* Deep slate for contrast */
+  --ifm-font-color-secondary: #566573;       /* Muted slate */
+
+  --ifm-link-color: var(--ifm-color-primary-dark);
+  --ifm-link-hover-color: var(--ifm-color-primary-darker);
+  --docusaurus-highlighted-code-line-bg: rgba(230, 126, 34, 0.07);
+
+  --ifm-navbar-background-color: var(--ifm-background-surface-color);
+  --ifm-navbar-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+
+  --ifm-card-background-color: var(--ifm-background-surface-color);
+  --ifm-card-shadow: 0 3px 14px rgba(0, 0, 0, 0.04);
+  --ifm-card-border: 1px solid rgba(0, 0, 0, 0.02);
+  --ifm-card-hover-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
+
+  --ifm-global-radius: 0.8rem;
+  --ifm-transition-fast: 160ms;
+  --ifm-transition-slow: 320ms;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* 🌚 Dark Mode — Amber Embers */
+  --ifm-color-primary: #f39c12;
+  --ifm-color-primary-dark: #e67e22;
+  --ifm-color-primary-darker: #d35400;
+  --ifm-color-primary-darkest: #a04000;
+
+  --ifm-color-primary-light: #f5b041;
+  --ifm-color-primary-lighter: #f8c471;
+  --ifm-color-primary-lightest: #fbeee6;
+
+  --ifm-background-color: #0d0c0a;          /* Warm black */
+  --ifm-background-surface-color: #1a1715;   /* Charcoal with warm undertone */
+  --ifm-font-color-base: #f0f0f0;           /* Soft ivory */
+  --ifm-font-color-secondary: #b8b8b8;       /* Warm gray */
+
+  --ifm-link-color: var(--ifm-color-primary-light);
+  --ifm-link-hover-color: var(--ifm-color-primary-lighter);
+  --docusaurus-highlighted-code-line-bg: rgba(243, 156, 18, 0.12);
+
+  --ifm-navbar-shadow: 0 2px 14px rgba(0, 0, 0, 0.3);
+  --ifm-card-shadow: 0 3px 14px rgba(0, 0, 0, 0.2);
+  --ifm-card-border: 1px solid rgba(255, 255, 255, 0.05);
+  --ifm-card-hover-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+/* === Enhanced Component Styles === */
+.navbar {
+  backdrop-filter: saturate(180%) blur(8px);
+  background-color: rgba(255, 255, 255, 0.86) !important;
+}
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(26, 23, 21, 0.88) !important;
+}
+
+.button--primary {
+  background: linear-gradient(
+    135deg,
+    var(--ifm-color-primary),
+    var(--ifm-color-primary-dark)
+  );
+  box-shadow: 0 3px 12px rgba(230, 126, 34, 0.3);
+}
+
+.button--primary:hover {
+  box-shadow: 0 6px 28px rgba(230, 126, 34, 0.4);
+}
+
+.theme-code-block {
+  border-left: 3px solid var(--ifm-color-primary-lightest);
+}
+
+[data-theme='dark'] .theme-code-block {
+  border-left: 3px solid var(--ifm-color-primary-darkest);
 }

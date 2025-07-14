@@ -1,0 +1,9 @@
+{
+  "label": "Lua Guides",
+  "position": 13,
+  "link": {
+    "type": "generated-index",
+    "title": "Lua Guides",
+    "description": "Explore tutorials, utilities, and environment checks for Lua and LuaJIT — including sandbox-safe techniques and practical tips."
+  }
+}

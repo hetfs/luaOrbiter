@@ -1,6 +1,6 @@
 # 🛣️ luaOrbiter roadmap
 
-Welcome to the official roadmap for **luaOrbiter**—a hands-on Lua learning platform built with real-world projects, AI applications, and embedded scripting.
+Welcome to the official roadmap for **luaOrbiter** a hands-on Lua learning platform built with real-world projects, AI applications, and embedded scripting.
 
 This document outlines planned milestones, features, and enhancements. We welcome contributions toward any of these via pull requests or issue suggestions.
 

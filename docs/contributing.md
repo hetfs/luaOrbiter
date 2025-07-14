@@ -5,9 +5,9 @@ sidebar_position: 99
 
 # 🤝 Contributing to luaOrbiter
 
-Welcome, and thank you for your interest in contributing to **luaOrbiter** — a community-powered Lua learning platform designed to help developers grow from beginner to expert.
+Welcome, and thank you for your interest in contributing to **luaOrbiter** a community-powered Lua learning platform designed to help developers grow from beginner to expert.
 
-Whether you're here to fix a typo, add a tutorial, or just suggest an idea — we appreciate you!
+Whether you're here to fix a typo, add a tutorial, or just suggest an idea  we appreciate you!
 
 ---
 

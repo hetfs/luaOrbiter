@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # 🆕 What’s New in luaOrbiter
 
-Welcome to the latest updates for **luaOrbiter** — a project-based Lua learning platform built for the next generation of developers. Whether you're scripting game AI, building embedded systems, or integrating with modern cloud platforms, this is your launchpad.
+Welcome to the latest updates for **luaOrbiter** a project-based Lua learning platform built for the next generation of developers. Whether you're scripting game AI, building embedded systems, or integrating with modern cloud platforms, this is your launchpad.
 
 ---
 
@@ -65,5 +65,5 @@ Welcome to the latest updates for **luaOrbiter** — a project-based Lua learnin
 
 - ⭐ [Star or Watch the Repo](https://github.com/hetfs/luaOrbiter) for updates  
 
-> _“luaOrbiter isn’t just a course — it’s a movement for the future of lightweight, powerful development.”_  
-> — Team luaOrbiter
+> _“luaOrbiter isn’t just a course it’s a movement for the future of lightweight, powerful development.”_  
+> Team luaOrbiter

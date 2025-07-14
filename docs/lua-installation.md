@@ -13,11 +13,11 @@ Welcome! This guide walks you through installing **Lua**, **LuaJIT**, and settin
 
 Select the option that fits your needs:
 
-### 🟢 Option 1: Beginner Setup (Quick Start)
+## 🟢 Option 1: Beginner Setup (Quick Start)
 
 Perfect for learning, testing, or experimenting with Lua code.
 
-#### 🌐 Use an Online Playground
+### 🌐 Use an Online Playground
 
 | Platform                                  | Versions | Multiplayer | Best For         |
 |-------------------------------------------|----------|-------------|------------------|
@@ -25,7 +25,7 @@ Perfect for learning, testing, or experimenting with Lua code.
 | [glot.io](https://glot.io/new/lua)         | 5.1–5.4  | ❌          | Safe experiments  |
 | [OneCompiler](https://onecompiler.com/lua) | 5.4      | ❌          | Quick scripting   |
 
-#### 🪟 Install Lua Locally (Optional)
+### 🪟 Install Lua Locally (Optional)
 
 ```powershell
 winget install --id=DEVCOM.Lua
@@ -136,7 +136,7 @@ luajit -v   # e.g., LuaJIT 2.1.0-beta3
 
 After installing Lua, you can use the REPL (Read-Eval-Print Loop) to interactively run Lua code.
 
-#### 🪟 Windows
+### 🪟 Windows
 
 1. Press `Win + R`, type `cmd`, and hit Enter
 2. In the command prompt, type:
@@ -152,7 +152,7 @@ Lua 5.4.8  Copyright (C) 1994–2025 Lua.org
 >
 ```
 
-#### 🐧 macOS/Linux
+### 🐧 macOS/Linux
 
 1. Open your terminal
 2. Type:
@@ -168,24 +168,36 @@ lua
 Once inside the Lua prompt:
 
 ```lua
-print("✅ Lua works!")
+print("Lua works!")
 print(_VERSION)
 ```
 
 Expected output:
 
 ```
-✅ Lua works!
+Lua works!
 Lua 5.4
 ```
 
-To exit:
+🔚 Exiting Lua
 
 ```lua
 os.exit()
 ```
 
+This is correct, but only works if the os library is available (which it is in the standard Lua interpreter). In some restricted environments (like embedded Lua), it might be disabled.
 > 💡 The REPL is a great place to test small ideas and learn Lua incrementally.
+
+---
+
+👍 Optional: Add a Safety Check
+
+To confirm your're actually in Lua 5.4, you coould also assert it:
+
+```lua
+assert(_VERSION == "Lua 5.4", "Unexpected Lua version")
+```
+
 
 ---
 
@@ -219,4 +231,4 @@ LuaRocks is auto-installed and integrated with every `luaDev` build.
  [🌐 luaDev GitHub](https://github.com/hetfs/luaDev)
 
 > *"luaDev gives you production-grade Lua with zero manual setup."*
-> — Team luaOrbiter
+> Team luaOrbiter
