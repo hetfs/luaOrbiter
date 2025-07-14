@@ -89,11 +89,5 @@ Check the [Roadmap](./ROADMAP.md) for upcoming features:
 - LuaJIT and performance labs
 - Community initiatives (Discord, guest lessons)
 
----
-
-## 📄 License
-
-MIT License © 2025 [HETFS Labs](./LINCENSE-MIT ⚖️)
-
 > *"Lua does more with less—20% of its features solve 80% of real-world problems."*  
 > — Roberto Ierusalimschy (Lua Creator)
