@@ -1,67 +1,67 @@
-# 🌍 Contributor Code of Conduct
+# 🌍 Contributor code of conduct
 
-## 💬 Our Pledge
+## 💬 Pledge to the community
 
-We, as contributors, maintainers, and leaders of this project, are committed to creating a safe, welcoming, and inclusive environment for everyone.
+All contributors, maintainers, and project leaders commit to building a safe, welcoming, and inclusive environment for everyone.
 
-We pledge to make participation in our community a **harassment-free experience for all** — regardless of age, body size, disability, ethnicity, gender identity and expression, education, experience level, nationality, personal appearance, race, religion, or sexual orientation.
-
----
-
-## 🌟 Our Standards
-
-Examples of behavior that contribute to a positive project culture include:
-
-- 🗣️ Using inclusive, respectful language  
-- 🤝 Supporting beginners and learners at all levels  
-- 🧠 Welcoming different perspectives and experiences  
-- 🛠 Providing constructive feedback graciously  
-- 🙌 Celebrating contributions and community wins  
-
-Examples of unacceptable behavior include:
-
-- 🚫 Sexualized or offensive language or imagery  
-- 🚫 Trolling, bullying, or targeted insults  
-- 🚫 Harassment in any form, public or private  
-- 🚫 Publishing personal or private information without consent  
-- 🚫 Deliberate intimidation or exclusionary conduct  
+Participation in the community must remain a **harassment-free experience for all**, regardless of age, body size, disability, ethnicity, gender identity or expression, education level, experience, nationality, personal appearance, race, religion, or sexual orientation.
 
 ---
 
-## 🛡️ Our Responsibilities
+## 🌟 Standards for behavior
 
-Project maintainers are responsible for:
+Positive contributions to the project culture include:
 
-- Defining clear standards of respectful behavior  
-- Responding to violations in a fair, consistent manner  
-- Taking appropriate action when unacceptable behavior occurs — including edits, warnings, bans, or removals  
-- Maintaining confidentiality around reports of misconduct  
+- 🗣️ Using inclusive and respectful language  
+- 🤝 Supporting beginners and learners at every level  
+- 🧠 Welcoming diverse perspectives and experiences  
+- 🛠 Offering constructive feedback kindly  
+- 🙌 Celebrating individual contributions and community achievements  
+
+Unacceptable behavior includes:
+
+- 🚫 Using offensive or explicit language or imagery  
+- 🚫 Engaging in trolling, bullying, or personal attacks  
+- 🚫 Harassing others in any form, public or private  
+- 🚫 Sharing personal or private information without consent  
+- 🚫 Using intimidation tactics or exclusionary behavior  
+
+---
+
+## 🛡️ Responsibilities of maintainers
+
+Project maintainers will:
+
+- Define and uphold clear standards of respectful behavior  
+- Address violations in a fair and consistent way  
+- Take appropriate action when misconduct occurs—including edits, warnings, bans, or removal  
+- Keep reports of misconduct private and secure  
 
 ---
 
 ## 🌐 Scope
 
-This Code of Conduct applies to all project spaces — including issues, pull requests, GitHub Discussions, forums, Discord, live events, and social media — as well as any situation where someone represents the project.
+This code of conduct applies to all project-related spaces. These include GitHub issues, pull requests, forums, Discord, discussions, live events, and social media. It also applies in any context where someone represents the project.
 
-Examples include using an official project email, posting via the project's accounts, or speaking at community events.
+Examples include using an official project email, posting from a project account, or speaking at a community event.
 
 ---
 
-## 📬 Reporting & Enforcement
+## 📬 Reporting and enforcement
 
-If you experience or witness unacceptable behavior, please report it to the maintainers:
+To report unacceptable behavior, contact the maintainers:
 
-📧 **Contact:** [git-cliff@protonmail.com](mailto:git-cliff@protonmail.com)
+📧 **Email:** [git-cliff@protonmail.com](mailto:git-cliff@protonmail.com)
 
-We treat all reports seriously and confidentially. You’ll receive a timely and appropriate response.
+Maintainers will review and handle all reports with care and discretion. Expect a timely and thoughtful response.
 
-Enforcement actions will be taken at the discretion of project maintainers. Maintainers who fail to uphold this code of conduct may be removed from their roles.
+The team reviews each case individually and applies appropriate enforcement actions. Any maintainer who doesn't uphold this code may lose their role.
 
 ---
 
 ## 📄 Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4.
+This code of conduct adapts content from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4.
 
-For FAQ and additional guidance, see the official page:  
+For FAQs and community guidelines, visit:  
 👉 https://www.contributor-covenant.org/faq

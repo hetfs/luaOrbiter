@@ -1,177 +1,188 @@
 ---
 title: ❓ Lua FAQ
 sidebar_position: 99
-description: Comprehensive Lua programming FAQ - From basics to advanced concepts
+description: Comprehensive Lua programming FAQ from basics to advanced concepts
 ---
 
-# 🧠 Lua Frequently Asked Questions
+# 🧠 Lua frequently asked questions
 
-Welcome to the official FAQ for [luaOrbiter](https://github.com/hetfs/luaOrbiter) - a project-based learning platform that guides you from Lua beginner to expert. Powered by [luaDev](https://github.com/hetfs/luaDev), it offers a modern Lua build system and workflow for professional development.
+Welcome to the official FAQ for [luaOrbiter](https://github.com/hetfs/luaOrbiter) a project-based learning platform that guides learners from beginner to expert in Lua. It's powered by [luaDev](https://github.com/hetfs/luaDev), a modern Lua build system designed for professional development.
 
 ---
 
 ## 🔍 Fundamentals
 
 <details>
-<summary>❓ What is Lua?</summary>
+<summary>❓ What's Lua?</summary>
 
-Lua is a **lightweight, embeddable scripting language** designed for:
-- Extending existing applications
+Lua is a **lightweight and embeddable scripting language** used for:
+
+- Extending applications
 - Game development and modding
-- Embedded systems programming
+- Embedded systems
 - Configuration scripting
 
-Key features:
-- Minimal footprint (~1MB)
-- Cross-platform compatibility
-- Simple syntax with only 22 reserved keywords
-- Powerful data description with tables
+Key features include:
+
+- Small binary size (about 1MB)
+- Cross-platform support
+- A minimal syntax with 22 reserved keywords
+- A flexible data structure powered by tables
 </details>
 
 <details>
 <summary>📅 When was Lua created?</summary>
 
-- Created in 1993 by Roberto Ierusalimschy, Waldemar Celes, and Luiz Henrique de Figueiredo
-- Version 1.0 completed mid-1993 (never publicly released)
-- First public release (v1.1) in 1994
-- Current stable version: Lua 5.4 (2021)
+- Released in 1993 by Roberto Ierusalimschy, Waldemar Celes, and Luiz Henrique de Figueiredo
+- Version 1.0 was completed in 1993 (not publicly released)
+- First public version (1.1) came in 1994
+- The latest stable version is Lua 5.4 (2021)
 </details>
 
 <details>
-<summary>🌟 Why is Lua popular?</summary>
+<summary>🌟 Why is Lua widely used?</summary>
 
-Lua's popularity stems from:
-- **Embeddability**: Integrates seamlessly into existing systems
-- **Performance**: Fast execution (especially with LuaJIT)
-- **Simplicity**: Shallow learning curve
-- **Portability**: Runs on virtually any platform
-- **Flexibility**: Supports multiple programming paradigms
+Lua stands out for:
+
+- **Easy embedding** in existing systems
+- **High performance**, especially with LuaJIT
+- **Simple syntax** and low learning curve
+- **Portability** across devices and systems
+- **Flexibility** to support multiple programming styles
 </details>
 
 ---
 
-## 🛠 Practical Usage
+## 🛠️ Practical usage
 
 <details>
-<summary>❓ What is Lua commonly used for?</summary>
+<summary>❓ What's Lua commonly used for?</summary>
 
-Lua excels in:
+Popular use cases:
+
 - 🎮 **Game engines**: Roblox, World of Warcraft, CryEngine
-- 🔌 **IoT & embedded systems**: Routers, sensors, OpenWrt
-- 🧠 **Databases & AI**: Redis, Tarantool
-- 🖥 **Tools & utilities**: Neovim, VLC, Wireshark plugins
-- 🌐 **Web servers**: NGINX via OpenResty
+- 🔌 **IoT and embedded systems**: Routers, OpenWrt devices
+- 🧠 **Databases and AI**: Redis, Tarantool
+- 🖥 **Tools and utilities**: Neovim, VLC, Wireshark
+- 🌐 **Web servers**: OpenResty with NGINX
 
-Key strengths:
-- Minimal runtime footprint
-- Blazing fast execution
-- Seamless C/C++ integration
+Why Lua works well:
+
+- Small runtime size
+- Fast performance
+- Seamless integration with C and C++
 </details>
 
 <details>
-<summary>⚙️ How is Lua implemented?</summary>
+<summary>⚙️ How's Lua implemented?</summary>
 
-- **Written in**: ANSI C (compatible with C++)
-- **Execution model**: Typically interpreted, compiles to bytecode
-- **Memory management**: Automatic garbage collection
-- **Typing system**: Dynamic, weak typing
+- **Language**: Written in ANSI C
+- **Execution**: Interpreted and compiled to bytecode
+- **Memory**: Uses automatic garbage collection
+- **Typing**: Dynamically typed with weak typing rules
 </details>
 
 <details>
 <summary>📦 What are Lua's core data types?</summary>
 
-Basic types:
-- `number` (integer/float)
+Basic types include:
+
+- `number` integers and floats
 - `string`
 - `boolean`
 - `nil`
-- `table` (arrays/dictionaries/objects)
+- `table` arrays, dictionaries, or objects
 - `function`
-- `userdata` (for C integration)
+- `userdata` for C/C++ integration
 
 ```lua
--- Example type usage
-local score = 100          -- number
-local name = "Mario"       -- string
-local is_active = true     -- boolean
-local items = {}           -- table
+-- Type examples
+local score = 100            -- number
+local name = "Mario"         -- string
+local is_active = true       -- boolean
+local items = {}             -- table
 local callback = function() end  -- function
-```
+````
+
 </details>
 
 ---
 
-## 🧩 Language Features
+## 🧩 Language features
 
 <details>
-<summary>🧱 Is Lua object-oriented?</summary>
+<summary>🧱 Does Lua support object-oriented programming?</summary>
 
-Lua uses **prototype-based OOP** through tables and metatables:
+Lua uses a **prototype-based OOP** model through tables and metatables:
 
 ```lua
 local Animal = {}
 Animal.__index = Animal
 
 function Animal.new(name)
-  return setmetatable({name = name}, Animal)
+  return setmetatable({ name = name }, Animal)
 end
 
 function Animal:speak()
   print(self.name .. " makes a sound!")
 end
 
--- Usage
 local dog = Animal.new("Fido")
-dog:speak()  -- Output: "Fido makes a sound!"
+dog:speak()  -- Output: Fido makes a sound!
 ```
 
 Key concepts:
-- No traditional classes
-- Inheritance via metatable chaining
-- Polymorphism through function assignment
+
+* No classes
+* Inheritance via metatables
+* Polymorphism via function assignments
+
 </details>
 
 <details>
-<summary>⚙️ What role do metatables play?</summary>
+<summary>⚙️ What do metatables do?</summary>
 
-Metatables enable advanced table behaviors:
-- Operator overloading (`__add`, `__mul`)
-- Custom indexing (`__index`, `__newindex`)
-- Method chaining
-- Prototype-based inheritance
+Metatables allow tables to respond to specific operations:
+
+* Operator overloading: `__add`, `__mul`, etc.
+* Custom indexing: `__index`, `__newindex`
+* Prototype-based inheritance
 
 ```lua
-local vector = {x=1, y=2}
+local vector = { x = 1, y = 2 }
 local mt = {
   __add = function(v1, v2)
-    return {x=v1.x+v2.x, y=v1.y+v2.y}
+    return { x = v1.x + v2.x, y = v1.y + v2.y }
   end
 }
 setmetatable(vector, mt)
 
 local result = vector + vector
-print(result.x, result.y)  -- Output: 2, 4
+print(result.x, result.y)  -- Output: 2 4
 ```
+
 </details>
 
 <details>
-<summary>🔢 Why 1-based indexing?</summary>
+<summary>🔢 Why does Lua use 1-based indexing?</summary>
 
-Lua arrays start at index 1 because:
-1. Aligns with mathematical conventions
-2. Simplifies range operations (`1..#array`)
-3. More intuitive for non-programmers
+Reasons for starting arrays at 1:
 
-For C interoperability:
+1. Matches mathematical conventions
+2. Easier to work with ranges (e.g., `1..#array`)
+3. More intuitive for newcomers
+
+To simulate 0-based indexing:
+
 ```lua
--- Create 0-indexed wrapper
 function create_zero_indexed(t)
   return setmetatable({}, {
-    __index = function(_, k) return t[k+1] end,
-    __newindex = function(_, k, v) t[k+1] = v end
+    __index = function(_, k) return t[k + 1] end,
+    __newindex = function(_, k, v) t[k + 1] = v end
   })
 end
 ```
+
 </details>
 
 ---
@@ -181,109 +192,125 @@ end
 <details>
 <summary>🐍 Lua vs. Python</summary>
 
-| Aspect          | Lua                      | Python                   |
-|-----------------|--------------------------|--------------------------|
-| **Best for**    | Embedded systems, games | Data science, scripting  |
-| **Runtime**     | ~1MB                     | 25-100MB+               |
-| **Learning**    | 1-2 weeks basics        | 2-4 weeks basics        |
-| **Performance** | Faster (especially JIT) | Slower                  |
-| **Ecosystem**   | Compact, focused        | Vast, comprehensive     |
+| Aspect        | Lua                     | Python                  |
+| ------------- | ----------------------- | ----------------------- |
+| **Focus**     | Embedded systems, games | Data science, scripting |
+| **Size**      | \~1MB                   | 25–100MB+               |
+| **Learning**  | Fast (\~1–2 weeks)      | Moderate (\~2–4 weeks)  |
+| **Speed**     | High (LuaJIT)           | Lower                   |
+| **Ecosystem** | Small but focused       | Large and diverse       |
 
-**Choose Lua for**: Embedded systems, game modding, performance-critical tasks  
-**Choose Python for**: Data analysis, machine learning, large applications
+**Lua** fits small, fast, embedded use cases.
+**Python** is ideal for large-scale applications, ML, and data work.
+
 </details>
 
 <details>
 <summary>🌐 Lua vs. JavaScript</summary>
 
-| Feature             | Lua               | JavaScript         |
-|---------------------|-------------------|--------------------|
-| **Concurrency**     | Coroutines        | Async/await        |
-| **Embedding**       | Excellent         | Limited            |
-| **Memory Footprint**| ~1MB              | 10-100MB+          |
-| **Typing**          | Dynamic weak      | Dynamic strong     |
-| **Primary Use**     | Embedded, games   | Web applications   |
+| Feature         | Lua             | JavaScript      |
+| --------------- | --------------- | --------------- |
+| **Concurrency** | Coroutines      | Async/await     |
+| **Embedding**   | Strong          | Limited         |
+| **Memory use**  | \~1MB           | 10–100MB+       |
+| **Typing**      | Weak dynamic    | Strong dynamic  |
+| **Use cases**   | Embedded, games | Web development |
+
 </details>
 
 <details>
 <summary>⚡ Lua vs. LuaJIT</summary>
 
-| Feature          | Lua 5.4           | LuaJIT 2.1         |
-|------------------|-------------------|--------------------|
-| **Performance**  | Moderate          | 5-10x faster       |
-| **FFI**          | Manual C API      | Native FFI         |
-| **Bitwise Ops**  | ✅ (5.3+)         | ✅                 |
-| **iOS Support**  | ✅                | Limited            |
-| **Best For**     | Portability       | Performance        |
+| Feature            | Lua 5.4          | LuaJIT 2.1    |
+| ------------------ | ---------------- | ------------- |
+| **Speed**          | Moderate         | 5–10x faster  |
+| **C API**          | Manual           | Native FFI    |
+| **Bitwise ops**    | Supported (5.3+) | Supported     |
+| **Mobile support** | High             | Limited (iOS) |
+| **Use cases**      | Portability      | Performance   |
+
 </details>
 
 ---
 
-## 🚀 Learning & Development
+## 🚀 Learning and development
 
 <details>
-<summary>🧑‍🎓 Is Lua beginner-friendly?</summary>
+<summary>🧑‍🎓 Is Lua good for beginners?</summary>
 
-**Absolutely!** Lua is ideal for beginners due to:
-- Minimalistic syntax (only 22 keywords)
-- REPL for immediate experimentation
-- Unified data model (tables for everything)
-- Gentle learning curve
+Yes. Lua has:
 
-**Learning timeline**:
-- Basics: 1-2 weeks
-- Intermediate: 1-2 months
-- Advanced: 3-6 months
+* Minimal syntax (22 keywords)
+* Interactive REPL
+* One data structure (tables)
+* A friendly learning curve
+
+**Typical learning timeline**:
+
+* Basics: 1–2 weeks
+* Intermediate: 1–2 months
+* Advanced: 3–6 months
+
 </details>
 
 <details>
-<summary>🚀 How do I start with Lua?</summary>
+<summary>🚀 How can I start learning Lua?</summary>
 
 1. Install [luaDev](https://github.com/hetfs/luaDev)
-2. Learn fundamentals:
+
+2. Learn the basics:
+
    ```lua
    -- Hello World
    print("Hello, Lua!")
-   
+
    -- Variables
    local score = 100
-   
-   -- Control flow
+
+   -- Conditionals
    if score > 50 then
      print("Pass!")
    end
    ```
-3. Master tables and metatables
-4. Explore OOP patterns
-5. Build projects: game mods, CLI tools, plugins
 
-[Beginner tutorials →](https://github.com/hetfs/luaOrbiter)
+3. Dive into tables and metatables
+
+4. Explore object-oriented patterns
+
+5. Build games, CLI tools, or plugins
+
+Explore [beginner tutorials →](https://github.com/hetfs/luaOrbiter)
+
 </details>
 
 <details>
 <summary>🛠 Recommended tools</summary>
 
 ### Editors:
-- [VSCode + Lua Extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
-- [ZeroBrane Studio](https://studio.zerobrane.com/)
-- [Neovim](https://neovim.io/)
 
-### CLI Tools:
-- `luacheck`: Linting
-- `busted`: Testing framework
-- `luarocks`: Package manager
+* [VS Code](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+* [ZeroBrane Studio](https://studio.zerobrane.com/)
+* [Neovim](https://neovim.io/)
+
+### CLI:
+
+* `luacheck` linting
+* `busted` testing
+* `luarocks` package manager
+
 </details>
 
 ---
 
-## ⚙️ Advanced Topics
+## ⚙️ Advanced topics
 
 <details>
-<summary>🛑 Error handling</summary>
+<summary>🛑 How does Lua handle errors?</summary>
 
 Use protected calls:
+
 ```lua
--- Basic error catching
+-- Basic error handling
 local ok, err = pcall(function()
   error("Something broke!")
 end)
@@ -292,39 +319,43 @@ if not ok then
   print("Error:", err)
 end
 
--- With stack traces
+-- Stack trace example
 xpcall(function()
-  error("Critical failure!")
+  error("Critical issue!")
 end, function(err)
   print(debug.traceback(err))
 end)
 ```
+
 </details>
 
 <details>
-<summary>🚀 Performance optimization</summary>
+<summary>🚀 How to optimize performance?</summary>
 
-Best practices:
+Suggestions:
+
 1. Use `local` variables
-2. Pre-allocate large arrays
-3. Avoid temporary table creation
-4. Use `table.concat()` for string building
-5. Leverage LuaJIT when possible
+2. Preallocate arrays
+3. Avoid temporary tables
+4. Use `table.concat()` for strings
+5. Consider LuaJIT
 
 ```lua
--- Optimized string concatenation
+-- Fast string building
 local parts = {}
 for i = 1, 10000 do
   parts[i] = tostring(i)
 end
 local result = table.concat(parts)
 ```
+
 </details>
 
 <details>
-<summary>🔌 C/C++ integration</summary>
+<summary>🔌 How does Lua integrate with C?</summary>
 
-Binding C functions to Lua:
+Example:
+
 ```c
 #include <lua.h>
 #include <lauxlib.h>
@@ -347,11 +378,11 @@ int luaopen_mylib(lua_State *L) {
 }
 ```
 
-Lua usage:
 ```lua
 local mylib = require("mylib")
 print(mylib.add(2, 3))  -- Output: 5
 ```
+
 </details>
 
 ---
@@ -359,24 +390,26 @@ print(mylib.add(2, 3))  -- Output: 5
 ## 📚 Resources
 
 <details>
-<summary>📦 Where to find libraries</summary>
+<summary>📦 Where can I find Lua libraries?</summary>
 
-- [LuaRocks](https://luarocks.org): Official package repository
-- [Awesome Lua](https://github.com/LewisJEllis/awesome-lua): Curated library list
-- [Lua Users Wiki](http://lua-users.org/wiki/): Community knowledge base
+* [LuaRocks](https://luarocks.org) main package repository
+* [Awesome Lua](https://github.com/LewisJEllis/awesome-lua)
+* [Lua Users Wiki](http://lua-users.org/wiki/)
+
 </details>
 
 <details>
-<summary>📚 Recommended books</summary>
+<summary>📚 Which books help with Lua?</summary>
 
-1. "Programming in Lua" (4th ed.) by Roberto Ierusalimschy
-2. "Lua Programming Gems" edited by Luiz Henrique de Figueiredo
+1. "Programming in Lua" by Roberto Ierusalimschy (4th edition)
+2. "Lua Programming Gems" by Luiz Henrique de Figueiredo
 3. "Beginning Lua Programming" by Kurt Jung and Aaron Brown
+
 </details>
 
 ---
 
-Still have questions?  
-👉 [Start a discussion](https://github.com/hetfs/luaOrbiter/discussions) or [open an issue](https://github.com/hetfs/luaOrbiter/issues).
+Still curious?
+👉 [Start a discussion](https://github.com/hetfs/luaOrbiter/discussions) or [open an issue](https://github.com/hetfs/luaOrbiter/issues)
 
-Let's master Lua together! 🚀
+Let’s explore Lua together! 🚀

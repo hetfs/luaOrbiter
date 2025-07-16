@@ -1,26 +1,26 @@
 ---
 id: how-to-take-this-course
-title: 🧭 How to Take This Course
+title: 🧭 How to take this course
 sidebar_position: 3
 ---
 
-# 🧭 How to Take This Course
+# 🧭 How to take this course
 
-Welcome to **luaOrbiter** — a mission-based Lua learning journey for developers, engineers, and creative technologists. Whether you're just beginning or diving deep into embedded scripting, this guide will help you get the most out of the platform.
+Welcome to **luaOrbiter**, a mission-based Lua learning guide for developers, engineers, and creative technologists. 
+Whether starting with Lua or exploring embedded scripting, this guide helps you get the most from the platform.
 
 ---
 
-## 🚀 Step 1: Set Up Your Environment
+## 🚀 Step 1: Set up your environment
 
 ### 🖥 Requirements
 
-To get started, you'll need:
+Before starting, check that you have the following:
+- A modern web browser for reading lessons
+- A code editor such as [VSCode](https://code.visualstudio.com/), [Neovim](https://neovim.io/) or [Notepad++](https://notepad-plus-plus.org/)
+- Optionally: a local Lua setup using [`luaDev`](https://github.com/hetfs/luaDev) for advanced usage
 
-- A modern web browser (for reading lessons)
-- A code editor (we recommend [VSCode](https://code.visualstudio.com/))
-- Optionally: Local Lua environment via [`luaDev`](https://github.com/hetfs/luaDev) for advanced learners
-
-### 🛠 Running Locally (optional)
+### 🛠 Running locally (optional)
 
 ```bash
 git clone https://github.com/hetfs/luaOrbiter.git
@@ -29,52 +29,52 @@ npm install
 npm run start
 ````
 
-Once running, access the course at: [http://localhost:3000](http://localhost:3000/)
+Once started, open [http://localhost:3000](http://localhost:3000/) in your browser.
 
 ---
 
-## 📚 Step 2: Follow the Learning Path
+## 📚 Step 2: Follow the learning path
 
-luaOrbiter is structured into 5 progressive levels. Go sequentially or skip ahead if you're already familiar with the basics.
+The luaOrbiter curriculum progresses through five structured levels. Follow them sequentially or skip ahead if you already know the basics.
 
-| Level              | What You’ll Learn                               | Suggested Duration |
-| ------------------ | ----------------------------------------------- | ------------------ |
-| 👶 Beginner        | Syntax, tables, control flow, basic functions   | 2–4 weeks          |
-| 👨‍💻 Intermediate | Modules, metatables, coroutines, JSON handling  | 8–12 weeks         |
-| 👨‍🏫 Advanced     | LuaJIT, FFI, profiling, C bindings              | 4–6 months         |
-| 🧠 Expert          | DSLs, VM internals, sandboxing, transpilers     | 1–2 years          |
-| 💼 Professional    | Real-world tooling, AI pipelines, embedded apps | Career-focused     |
+| Level              | What you will learn                                            | Suggested duration |
+| ------------------ | -------------------------------------------------------------- | ------------------ |
+| 👶 Beginner        | Syntax, tables, control flow, basic functions                  | 2–4 weeks          |
+| 👨‍💻 Intermediate | Modules, metatables, coroutines, JSON handling                 | 8–12 weeks         |
+| 👨‍🏫 Advanced     | LuaJIT, foreign function interface, profiling, C bindings      | 4–6 months         |
+| 🧠 Expert          | Domain-specific languages, VM internals, Sandboxing, compilers | 1–2 years          |
+| 💼 Professional    | Real-world tooling, AI pipelines, embedded systems             | Career-oriented    |
 
-Each level includes hands-on projects like:
+Featured projects include:
 
-* 🧮 Text-based calculators
-* 🤖 AI bots with decision trees
+* 🧮 A text-based calculator
+* 🤖 AI bots with decision logic
 * 🌐 Lua-powered API clients
-* 🔌 Edge controllers using LuaJIT
-* 🧰 CLI tools & Lua integrations
+* 🔌 Edge device control using LuaJIT
+* 🧰 CLI tools and Lua-based utilities
 
 ---
 
-## 🎯 Step 3: Choose a Specialization Track (Optional)
+## 🎯 Step 3: Choose a specialization track (optional)
 
-Once you’ve mastered the basics, specialize based on your goals.
+After learning the core concepts, consider exploring a specialization that aligns with your goals.
 
-| Track              | Focus Areas                                              |
-| ------------------ | -------------------------------------------------------- |
-| 🎮 Game Dev        | Game engines (Roblox, Love2D), NPC scripting, UI modding |
-| 🔌 Embedded        | IoT scripting, hardware interfacing, ESP32 firmware      |
-| 🤖 AI & Automation | ML pipelines, control layers for LLMs & edge inference   |
-| 🛠 Dev Tools       | Custom editors, linters, plugin systems, transpilers     |
+| Track                | Focus areas                                            |
+| -------------------- | ------------------------------------------------------ |
+| 🎮 Game development  | Game engines (Roblox, Love2D), scripting, UI extension |
+| 🔌 Embedded systems  | IoT scripting, hardware control, ESP32 firmware        |
+| 🤖 AI and automation | Machine learning, pipeline orchestration, edge logic   |
+| 🛠 Developer tools   | Editors, linters, plugin systems, code transformation  |
 
-Specialization modules are marked throughout the course.
+These specialization modules appear throughout the course.
 
 ---
 
-## 🧪 Step 4: Build, Build, Build
+## 🧪 Step 4: Build practical projects
 
-Learning by doing is at the core of luaOrbiter. Each module includes practical projects and real-world scripts.
+Hands-on learning drives luaOrbiter. Each module offers projects and real-world code samples.
 
-Start simple:
+Start with something small:
 
 ```lua
 -- Rock-paper-scissors logic
@@ -82,60 +82,61 @@ choices = {"rock", "paper", "scissors"}
 print("You chose: " .. choices[math.random(1, 3)])
 ```
 
-Then level up to:
+Then move on to:
 
-* 🎮 A full dialogue system for NPCs
+* 🎮 A complete non-player character (NPC) dialogue engine
 * 🌐 API clients with error handling
-* 🧠 AI decision-making with tables & state machines
-* ⚙️ Lua/C integrations via LuaJIT FFI
-* 🧰 Developer tools like formatters or linters
+* 🧠 AI logic using tables and state machines
+* ⚙️ Lua and C integration via LuaJIT’s foreign function interface (FFI)
+* 🧰 Development tools like formatters or linters
 
 ---
 
-## 🤝 Step 5: Contribute and Collaborate
+## 🤝 Step 5: Contribute and collaborate
 
-You’re not alone — luaOrbiter is open-source and community-driven.
+luaOrbiter operates as an open-source, community-driven platform.
 
-* Submit your own lessons, code samples, or diagrams
-* Help translate or fix typos
-* Join the community via GitHub Discussions or Discord (coming soon)
-* ⭐ Star the [repo](https://github.com/hetfs/luaOrbiter) to support development
+* Submit lessons, code examples, or diagrams
+* Help with translation or typo fixes
+* Join discussions on GitHub (Discord support coming soon)
+* ⭐ Star the [repository](https://github.com/hetfs/luaOrbiter) to show support
 
-> Learn by building. Build by sharing.
+> Learn through building. Build through sharing.
 
 ---
 
-## 📦 Bonus for Advanced Learners: Use `luaDev`
+## 📦 Bonus for advanced learners: Use `luaDev`
 
-Install [`luaDev`](https://github.com/hetfs/luaDev) to unlock full control over Lua/LuaJIT builds and project scaffolding.
+Install [`luaDev`](https://github.com/hetfs/luaDev) to gain full control over Lua and LuaJIT compilation and tooling.
 
 With `luaDev`, you can:
 
-* Compile Lua across versions (Lua 5.1–5.4, LuaJIT 2.1)
+* Build Lua for different versions (5.1 to 5.4, LuaJIT 2.1)
 * Generate CMake templates and logs
-* Build embedded systems with structured diagnostics
-* Explore internals like GC tuning, bytecode manipulation
+* Deploy embedded Lua with structured diagnostics
+* Explore internals such as garbage collection and bytecode
 
 ---
 
-## ⏱ Weekly Flow for Steady Progress
+## ⏱ Weekly study plan
 
 | Day     | Activity                              |
 | ------- | ------------------------------------- |
-| Mon–Wed | Read 1–2 lessons and explore examples |
+| Mon–Wed | Read lessons and review examples      |
 | Thu     | Complete a mini-project               |
-| Fri     | Reflect and read a FAQ/guide          |
-| Weekend | Contribute or try bonus material      |
+| Fri     | Reflect and read a related guide      |
+| Weekend | Contribute or explore advanced topics |
 
 ---
 
-## 🔗 Helpful Resources
+## 🔗 Helpful resources
 
-* [🆕 What’s New](./what-new.md)
-* [🤝 Contributing Guide](./contributing.md)
-* [🧠 luaDev Build Engine](https://github.com/hetfs/luaDev)
+* [🆕 What’s new](./what-new.md)
+* [🤝 Contributing guide](./contributing.md)
+* [🧠 luaDev build engine](https://github.com/hetfs/luaDev)
 
 ---
 
-> *“This isn’t just a course — it’s a launchpad into real-world Lua development.”*
-> — Team luaOrbiter
+> *“This course serves as a launchpad into real-world Lua development.”*
+>
+> The luaOrbiter team

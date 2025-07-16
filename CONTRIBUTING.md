@@ -1,44 +1,42 @@
 # 🤝 Contributing to luaOrbiter
 
-Welcome, and thank you for your interest in contributing to **luaOrbiter** — a community-powered Lua learning platform designed to help developers grow from beginner to expert.
+Welcome, and thank you for your interest in contributing to **luaOrbiter**, a community-powered Lua learning platform that helps developers grow from beginner to expert.
 
-Whether you're here to fix a typo, add an advanced tutorial, or just suggest an idea — we appreciate you!
-
----
-
-## 🚀 Ways to Contribute
-
-### 📚 Content & Docs
-
-- Suggest new lesson topics or projects
-- Improve explanations, fix typos, or clarify examples
-- Add real-world use cases or learning checkpoints
-- Translate existing content into other languages
-
-### 🔧 Code Contributions
-
-- Add Lua code examples or playground snippets
-- Improve Mermaid diagrams, REPL demos, or tutorials
-- Submit reusable components, formatters, or templates
-- Fix bugs in Markdown, JSON, or site structure
-
-### 🌍 Community Involvement
-
-- Review and test Pull Requests
-- Help triage GitHub issues
-- Answer questions in [Discussions](https://github.com/hetfs/luaOrbiter/discussions)
-- Share the project with others online or in meetups
+If you want to fix a typo, add a tutorial, or suggest an idea, your contribution is welcome.
 
 ---
 
-## 🛠️ Getting Started
+## 🚀 Ways to contribute
 
-1. **Fork the Repository**
+### 📚 Content and documentation
 
-   Click the **Fork** button on the top right of [luaOrbiter](https://github.com/hetfs/luaOrbiter)
+- Suggest new lesson topics or project ideas  
+- Fix typos, clarify examples, or improve explanations  
+- Add real-world use cases or learning checkpoints  
+- Translate existing content into other languages  
 
-2. **Clone your fork**
+### 🔧 Code contributions
 
+- Submit Lua code examples or playground snippets  
+- Improve Mermaid diagrams, REPL demos, or tutorials  
+- Add reusable components, linters, or templates  
+- Fix bugs in Markdown, JSON, or site structure  
+
+### 🌍 Community involvement
+
+- Review and test pull requests  
+- Help triage GitHub issues  
+- Answer questions in [Discussions](https://github.com/hetfs/luaOrbiter/discussions)  
+- Share the project online or at meetups  
+
+---
+
+## 🛠️ Getting started
+
+1. **Fork the repository**  
+   Click the **Fork** button at the top right of [luaOrbiter](https://github.com/hetfs/luaOrbiter)
+
+2. **Clone your fork**  
    ```bash
    git clone https://github.com/YOUR_USERNAME/luaOrbiter.git
    cd luaOrbiter
@@ -55,15 +53,16 @@ Whether you're here to fix a typo, add an advanced tutorial, or just suggest an 
    git checkout -b feature/your-topic
    ```
 
-5. **Make your changes** (in `docs/`, `static/`, `src/`, etc.)
+5. **Make your changes**
+   Edit files in `docs/`, `static/`, `src/`, or related folders
 
-6. **Run locally**
+6. **Run the project locally**
 
    ```bash
    npm run start
    ```
 
-7. **Commit and push**
+7. **Commit and push your changes**
 
    ```bash
    git add .
@@ -71,43 +70,41 @@ Whether you're here to fix a typo, add an advanced tutorial, or just suggest an 
    git push origin feature/your-topic
    ```
 
-8. **Open a Pull Request**
-
-   Open a PR from your branch to `main`
-   Describe what you changed and why — we’ll review it ASAP.
+8. **Open a pull request**
+   Submit a PR from your branch to `main`. Include a description of what changed and why. The team will review it soon.
 
 ---
 
-## ✨ Contribution Guidelines
+## ✨ Contribution guidelines
 
-* Write clearly and be beginner-friendly
+* Write in a way that supports learners new to Lua
 * Use semantic commit messages:
 
   * `Add:` for new content
-  * `Fix:` for bugs, typos
-  * `Update:` for improvements
-* Keep code examples Lua 5.1–5.4 compatible
-* Prefer commented code, readable Markdown, and accessible formatting
-* Make diagrams, prompts, and tests interactive when possible
+  * `Fix:` for bugs or typos
+  * `Update:` for enhancements
+* Keep examples compatible with Lua 5.1 to 5.4
+* Use comments in code, clear Markdown, and readable formatting
+* Create interactive diagrams, prompts, or test snippets when possible
 
 ---
 
 ## 📄 License
 
-By contributing, you agree that your content will be released under the [MIT License](./LICENSE).
+By contributing, you agree to license your content under the [MIT License](./LICENSE).
 
-You retain full credit for your work. We just want to share it with the world. 🌍
-
----
-
-## 📎 Additional Resources
-
-* 📘 [Beginner Guide](docs/01-beginner/01-what-beginner-learn.md)
-* 💬 [GitHub Discussions](https://github.com/hetfs/luaOrbiter/discussions)
-* 🛠️ [Installation Guide](/docs/lua-installation.md)
-* 🧠 [Lua Ecosystem](/docs/12-lua-ecosystem/lua-ecosystem)
+You keep credit for your work. This project exists to help others learn and grow.
 
 ---
 
-> “When we teach, we learn. Let’s help others discover the joy of Lua.”
+## 📎 More resources
+
+* 📘 [Beginner guide](docs/01-beginner/01-what-beginner-learn.md)
+* 💬 [GitHub discussions](https://github.com/hetfs/luaOrbiter/discussions)
+* 🛠️ [Installation guide](/docs/lua-installation.md)
+* 🧠 [Lua ecosystem overview](/docs/12-lua-ecosystem/lua-ecosystem)
+
+---
+
+> “When we teach, we learn. Help others discover the joy of Lua.”
 > — Team luaOrbiter
