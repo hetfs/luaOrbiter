@@ -1,10 +1,10 @@
 ---
 id: intro
-title: Getting Started
+title: Getting started
 sidebar_position: 1
 ---
 
-# 🚀 Getting Started with Lua
+# 🚀 Getting started with Lua
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" width="200px" alt="Lua Logo"/>
@@ -12,23 +12,24 @@ sidebar_position: 1
 
 ---
 
-## 🧩 What is Lua?
+## 🧩 Introducing Lua
 
-**Lua** is a fast, lightweight, and embeddable scripting language designed for extensibility and performance. Originally developed in Brazil, it powers systems where minimal overhead and flexibility are essential.
+**Lua** delivers fast, lightweight, embeddable scripting built for extensibility and performance. Originally developed in Brazil, it supports systems that demand minimal overhead and high flexibility.
 
-## Common Applications:
-- 🎮 **Game engines** — Roblox, WoW, CryEngine  
-- 🌐 **Web infrastructure** — OpenResty (NGINX), Redis scripting  
-- 🤖 **Edge AI & robotics** — IoT control, inference pipelines  
-- 🔌 **Embedded systems** — routers, sensors, firmware scripting
+## 🧰 Common applications
 
-Lua shines when you need **speed**, **simplicity**, and **seamless C integration** in tight environments.
+- 🎮 **Game engines**: Roblox, World of Warcraft, CryEngine  
+- 🌐 **Web infrastructure**: OpenResty (NGINX<abbr title="Nginx Is Not eXperimental">†</abbr>), Redis scripting  
+- 🤖 **Edge AI and robotics**: IoT control, inference pipelines  
+- 🔌 **Embedded systems**: routers, sensors, firmware scripting
+
+Lua performs well in environments that demand speed, simplicity, and seamless C integration.
 
 ---
 
-## 📖 What You'll Learn
+## 📖 What you'll learn
 
-This course follows a **project-based mastery track** — guiding you from syntax to systems integration through real-world Lua applications.
+This course follows a **project-based mastery path** guiding learners through Lua fundamentals, systems integration, and practical development.
 
 ```mermaid
 graph LR
@@ -37,30 +38,30 @@ graph LR
   C --> D[☁️ Cloud Infrastructure]
 ````
 
-## 🧠 Learning Outcomes:
+## 🧠 Learning outcomes
 
-* Write efficient Lua code for constrained environments
-* Design high-performance Lua/C integrations
-* Build AI behaviors for games and simulations
-* Develop edge computing and embedded automation tools
-* Create production-ready Lua tooling and modules
+* Write efficient Lua code for limited-resource systems
+* Design high-performance Lua and C integrations
+* Build AI behaviors for simulations and games
+* Develop automation tools for edge and embedded devices
+* Create production-level Lua modules and utilities
 
 ---
 
-## 🌟 Why Learn Lua in 2025?
+## 🌟 Why learn Lua in 2025
 
-### A Modern Language for High-Impact Systems
+### A modern language for high-impact systems
 
-| Domain           | Key Applications               | Industry Impact                  |
-| ---------------- | ------------------------------ | -------------------------------- |
-| 🎮 **Game AI**   | NPC scripting, adaptive logic  | Powers 70% of commercial engines |
-| ⚡ **Edge AI**    | Local inference, sensor fusion | Embedded in Redis, IoT hubs      |
-| 🤖 **Hybrid AI** | C++, LLM, Lua pipelines        | Lua as orchestration layer       |
-| 💼 **Careers**   | Embedded Dev, AI Scripter      | \$110K–\$190K average salary     |
+| Domain       | Key applications                          | Industry impact                   |
+| ------------ | ----------------------------------------- | --------------------------------- |
+| 🎮 Game AI   | Non-player character scripting            | Used in 70% of commercial engines |
+| ⚡ Edge AI    | Local inference, sensor fusion            | Used in Redis and IoT hubs        |
+| 🤖 Hybrid AI | C++, large language models, Lua pipelines | Lua used for orchestration        |
+| 💼 Careers   | Embedded systems, AI scripting            | \$110K–\$190K average salary      |
 
-### Example Integrations
+### Example integrations
 
-**🎮 Adaptive AI Behavior**
+**🎮 Adaptive AI behavior**
 
 ```lua
 function enemy:update()
@@ -69,7 +70,7 @@ function enemy:update()
 end
 ```
 
-**🌐 Edge AI Orchestration**
+**🌐 Edge AI orchestration**
 
 ```mermaid
 graph TB
@@ -81,9 +82,9 @@ graph TB
 
 ---
 
-## 📚 Skill Progression Path
+## 📚 Skill progression path
 
-### 👶 Beginner (2–4 weeks): Core Foundations
+### 👶 Beginner (2–4 weeks): Core foundations
 
 ```lua
 function c_to_f(c)
@@ -91,26 +92,26 @@ function c_to_f(c)
 end
 ```
 
-**Key Topics:**
+**Key topics**
 
-* Variables, types (`nil`, `boolean`, `number`, `string`)
+* Variables and types (`nil`, `boolean`, `number`, `string`)
 * Control flow: `if`, `for`, `while`, `repeat-until`
-* Functions, scope, local/global separation
+* Functions, scoping, and local/global separation
 * Tables: arrays, dictionaries, `ipairs`, `pairs`
 * File I/O and standard libraries
 
-**Projects:**
+**Projects**
 
-* Text-based adventure
-* File renamer utility
-* Rock-paper-scissors AI
+* Text-based story game
+* Batch file renaming utility
+* Rock-paper-scissors simulator
 * Inventory manager
-* Roblox/LÖVE2D mini-mods
-* Simple NPC patrol logic
+* Mini games for Roblox or LÖVE2D
+* Patrol behavior logic for characters
 
 ---
 
-### 👨‍💻 Intermediate (8–12 weeks): Modular Design
+### 👨‍💻 Intermediate (8–12 weeks): Modular design
 
 ```lua
 Character = {health = 100}
@@ -119,27 +120,27 @@ function Character:new(o)
 end
 ```
 
-**Key Topics:**
+**Key topics**
 
-* Object orientation with metatables (`__index`, `__add`, etc.)
-* Error handling with `pcall`, `xpcall`, and defensive code
-* Modular programming: creating and requiring modules
-* Coroutines and cooperative multitasking
-* JSON/XML serialization and config handling
+* Object design with metatables (`__index`, `__add`)
+* Error handling using `pcall`, `xpcall`, and fallback logic
+* Modular programming with `require`
+* coroutines for multitasking
+* Configuration handling with JSON and XML
 
-**Projects:**
+**Projects**
 
-* RESTful API client
-* Download manager with coroutines
-* Plugin-based app
+* REST<abbr title="Representational State Transfer">†</abbr> API client
+* Download queue with coroutines
+* Plugin-based desktop tool
 * AI state machine
-* Sensor preprocessor
-* Dialogue system
+* Sensor input formatter
+* Dialogue controller
 * Math utility library
 
 ---
 
-### 🧠 Advanced (4–6 months): Integration & Optimization
+### 🧠 Advanced (4–6 months): Integration and optimization
 
 ```c
 int lua_add(lua_State *L) {
@@ -150,60 +151,61 @@ int lua_add(lua_State *L) {
 }
 ```
 
-**Key Topics:**
+**Key topics**
 
-* Lua C API and C binding
-* LuaJIT FFI and JIT tuning
-* Threading models: Lanes, LuaSocket, event loops
-* Performance profiling and garbage collection
-* Debugging Lua VM internals and hooks
+* C binding using Lua’s API
+* LuaJIT’s foreign function interface (FFI<abbr title="Foreign Function Interface">†</abbr>)
+* Async<abbr title="Asynchronous">†</abbr> event models with Lanes, LuaSocket, and loops
+* Memory management and performance profiling
+* Debugging the Lua VM and custom C hooks
 
-**Projects:**
+**Projects**
 
-* Custom Redis module
-* Game engine AI plugin
-* Lua-accelerated image processor
-* Real-time emotion detection tool
+* Redis module with Lua hooks
+* AI plugin for game engines
+* Lua-powered image transformer
+* Emotion detection with real-time inference
 * Physics engine in C with Lua scripting
-* IoT controller orchestrated with Lua
+* IoT dashboard built with Lua
 
 ---
 
-### 🧬 Expert (1–2 years): Systems Mastery
+### 🧬 Expert (1–2 years): Systems mastery
 
-**Key Topics:**
+**Key topics**
 
-* Bytecode engineering and Lua VM customization
-* Secure sandboxing and Lua execution environments
-* OpenResty microservices, Kubernetes orchestration
-* DSLs and transpilers (Lua → C, WASM, etc.)
-* Open source leadership: LuaRocks, LuaJIT, VM patches
+* Bytecode engineering and Lua VM patching
+* Secure Sandboxing<abbr title="Sandboxing (code isolation)">†</abbr> techniques
+* Kubernetes-based OpenResty microservices
+* DSL<abbr title="Domain-Specific Language">†</abbr> design and compiler generation
+* Source-to-source transpilation<abbr title="Transpilation (code transformation)">†</abbr> (Lua → C, WASM<abbr title="WebAssembly">†</abbr>)
+* LuaRocks and LuaJIT ecosystem contributions
 
-**Projects:**
+**Projects**
 
-* Lua → WASM compiler
-* Federated LLM orchestrator
-* K8s API gateway in Lua
-* Custom DSL for network protocols
-* Auto-scaling server farm logic
-* LuaJIT-powered game AI engine
-
----
-
-## 💼 Career Tracks
-
-| Track        | Tech Stack       | Entry Role        | Growth Role                |
-| ------------ | ---------------- | ----------------- | -------------------------- |
-| 🎮 Game Dev  | Lua + C++/Roblox | AI Scripter       | Game AI Engineer           |
-| 🌐 Web/Cloud | OpenResty + Lua  | API Dev           | Cloud Platform Engineer    |
-| 🔌 Embedded  | Lua + RTOS       | Firmware Scripter | Embedded Systems Architect |
-| 🛠 Dev Tools | LuaJIT + CLI     | Tooling Engineer  | DevOps Experience Lead     |
-
-**In-demand skills:** LuaJIT, C integration, async orchestration, system design, AI scripting
+* Lua-to-WASM compiler
+* Orchestrator for large language models
+* Kubernetes API gateway with Lua
+* DSL-driven protocol interface
+* Autoscaling<abbr title="Autoscaling (dynamic resource adjustment)">†</abbr> system services
+* LuaJIT-powered AI game engine
 
 ---
 
-## ⏱ Roadmap Timeline
+## 💼 Career tracks
+
+| Track        | Tech stack                                                  | Entry role          | Growth path                  |
+| ------------ | ----------------------------------------------------------- | ------------------- | ---------------------------- |
+| 🎮 Game Dev  | Lua + C++/Roblox                                            | AI scripting intern | Game AI engineer             |
+| 🌐 Web/Cloud | Lua + OpenResty                                             | API developer       | Cloud infrastructure lead    |
+| 🔌 Embedded  | Lua + RTOS<abbr title="Real-Time Operating System">†</abbr> | Firmware engineer   | Embedded systems architect   |
+| 🛠 Dev Tools | LuaJIT + CLI                                                | Automation engineer | Developer experience manager |
+
+**High-value skills**: LuaJIT, C interop<abbr title="Interop (interoperability)">†</abbr>, concurrency models, system design, orchestration
+
+---
+
+## ⏱ Roadmap timeline
 
 ```mermaid
 graph LR
@@ -214,22 +216,21 @@ graph LR
 
 ---
 
-## 💡 Tips for Success
+## 💡 Tips for success
 
-1. **Choose a domain early** — game dev, embedded, or infra
-2. **Practice integrations** — Lua ↔ C++, LLMs, Redis, APIs
-3. **Build in public** — share projects, write blog posts
-4. **Profile everything** — optimize using LuaJIT and luatrace
-5. **Learn the internals** — VM, GC, metatables, bytecode
+1. Choose a domain that aligns with your goals: games, embedded, or infrastructure
+2. Practice Lua–C interop—connect with Redis, APIs, LLMs, or hardware APIs
+3. Share your learning—write blogs, publish code, build in public
+4. Benchmark frequently—profile and optimize using LuaJIT and LuaTrace
+5. Understand Lua internals—VM, GC, metatables, and bytecode mechanics
 
-> *“Lua does more with less — a small language with system-level superpowers.”*
-> — Roberto Ierusalimschy, Lua's creator
+> *“Lua does more with less—a small language with system-level superpowers.”*
+> — Roberto Ierusalimschy, creator of Lua
 
 ---
 
-## 🔗 Next Steps
+## 🔗 Next steps
 
-* 📘 [Start the Beginner Path]
-* ❓ [View the Lua FAQ]
-* ⚙️ [Explore the `luaDev` Build System](https://github.com/hetfs/luaDev)
-
+* 📘 \[Start the beginner path]
+* ❓ \[View the Lua FAQ]
+* ⚙️ [Explore the `luaDev` build system](https://github.com/hetfs/luaDev)
