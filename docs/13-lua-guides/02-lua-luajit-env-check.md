@@ -111,7 +111,10 @@ end
 
 <details>
   <summary>Why does LuaJIT report version 5.1?</summary>
-  LuaJIT maintains compatibility with Lua 5.1's bytecode and APIs, even though it implements many 5.2+ features.
+  
+  > LuaJIT maintains compatibility with Lua 5.1's bytecode and APIs, even though it implements many 5.2+ features.
+  >
+  > _- LuaJIT Documentation_
 </details>
 
 <details>

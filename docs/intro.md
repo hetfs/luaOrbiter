@@ -76,8 +76,8 @@ end
 graph TB
   A[Thermal Sensor] --> B[Lua Preprocessing]
   B --> C{Threat Level}
-  C -->|>0.8| D[Send Alert]
-  C -->|<0.8| E[Defer to Cloud]
+  C -->|"&gt;0.8"| D[Send Alert]
+  C -->|"&lt;0.8"| E[Defer to Cloud]
 ```
 
 ---
