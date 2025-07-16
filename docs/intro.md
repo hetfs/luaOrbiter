@@ -16,7 +16,7 @@ sidebar_position: 1
 
 **Lua** is a fast, lightweight, and embeddable scripting language designed for extensibility and performance. Originally developed in Brazil, it powers systems where minimal overhead and flexibility are essential.
 
-### Common Applications:
+## Common Applications:
 - 🎮 **Game engines** — Roblox, WoW, CryEngine  
 - 🌐 **Web infrastructure** — OpenResty (NGINX), Redis scripting  
 - 🤖 **Edge AI & robotics** — IoT control, inference pipelines  
@@ -37,7 +37,7 @@ graph LR
   C --> D[☁️ Cloud Infrastructure]
 ````
 
-### 🧠 Learning Outcomes:
+## 🧠 Learning Outcomes:
 
 * Write efficient Lua code for constrained environments
 * Design high-performance Lua/C integrations

@@ -1,7 +1,7 @@
 ---
-id: 05-lua-control-flow
+id: 06-lua-control-flow
 title: Control Flow
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # 🔀 Control Flow in Lua
