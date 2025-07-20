@@ -7,10 +7,10 @@ const config = {
   tagline: 'Let’s code Lua!',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://hetfs.github.io/',
+  baseUrl: '/luaOrbiter/',
 
-  organizationName: 'HETFS LTD',
+  organizationName: 'hetfs',
   projectName: 'luaOrbiter',
 
   onBrokenLinks: 'throw',
@@ -35,13 +35,23 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/hetfs/luaOrbiter',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/hetfs/luaOrbiter',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -57,7 +67,7 @@ const config = {
       navbar: {
         title: 'luaOrbiter',
         logo: {
-          alt: 'Lua Orbiter Logo',
+          alt: 'HETFS LTD Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -67,9 +77,9 @@ const config = {
             position: 'left',
             label: 'Getting Started',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hetfs/luaOrbiter',
             label: 'GitHub',
             position: 'right',
           },
@@ -92,48 +102,46 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discussions',
-                href: 'https://github.com/hetfs/luaOrbiter/discussions',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+                href: 'https://m.facebook.com/profile.php?id=100090714730738',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/hetf01',
+              },
+              {
+                label: 'Buy Me A Coffee',
+                href: 'https://www.buymeacoffee.com/hetfs01f',
               },
             ],
           },
           {
             title: 'More',
             items: [
-              { label: 'Blog', to: '/blog' },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/hetfs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HEFTS LTD.`,
       },
 
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        // Syntax highlighting for all specified languages
         additionalLanguages: [
-          'powershell',  // PowerShell
-          'python',      // Python
-          'bash',        // bash shell scripts
-          'cmake',       // CMake
-          'c',           // C
-          'cpp',         // C++
-          'yaml',        // YAML (yml)
-          'toml',        // TOML
-          'ini',         // INI
-          'lua'          // Lua
+          'powershell',
+          'python',
+          'bash',
+          'cmake',
+          'c',
+          'cpp',
+          'yaml',
+          'toml',
+          'ini',
+          'lua',
         ],
         magicComments: [
           {

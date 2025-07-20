@@ -190,17 +190,6 @@ This is correct, but only works if the os library is available (which it is in t
 
 ---
 
-👍 Optional: Add a Safety Check
-
-To confirm your're actually in Lua 5.4, you coould also assert it:
-
-```lua
-assert(_VERSION == "Lua 5.4", "Unexpected Lua version")
-```
-
-
----
-
 ## 🔒 Production-Grade Security
 
 `luaDev` applies compiler hardening automatically:

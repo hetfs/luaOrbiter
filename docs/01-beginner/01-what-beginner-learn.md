@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # 👶 What Beginners Will Learn
 
-Welcome to your Lua journey! This beginner track is designed to help you **build real skills from day one** — no prior experience required.
+Welcome to your Lua journey! This beginner track is designed to help you **build real skills from day one** no prior experience required.
 
 By the end of this section, you'll be writing your own Lua scripts, building small projects, and thinking like a developer.
 

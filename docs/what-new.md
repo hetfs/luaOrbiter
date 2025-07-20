@@ -15,15 +15,15 @@ Welcome to the latest updates for **luaOrbiter** a project-based Lua learning pl
 ### 🔥 New Curriculum Modules
 
 - 🧱 **Beginner Foundations**
-  - Core lessons on variables, tables, and control flow now live  
+  - Core lessons on variables, tables, and control flow now live
   - Mini-projects include: calculator, inventory tracker, and simple NPC logic
 
 - 🛠 **Intermediate Systems**
-  - Added lessons on modular design, metatables, and OOP in Lua  
+  - Added lessons on modular design, metatables, and OOP in Lua
   - Real-world projects: plugin-based CLI and RESTful API client
 
 - 🤖 **AI & Edge Computing**
-  - New content on hybrid orchestration: Lua ↔ Python ↔ LLMs  
+  - New content on hybrid orchestration: Lua ↔ Python ↔ LLMs
   - Mermaid-powered architecture diagrams for edge AI flow
 
 ---
@@ -44,9 +44,9 @@ Welcome to the latest updates for **luaOrbiter** a project-based Lua learning pl
 
 ## 🛠 Coming in August 2025
 
-- 🌍 **Translations**: French 🇫🇷 and Twi 🇬🇭 versions of beginner content  
-- 🧪 **Live Code Playground**: Run Lua in-browser via a sandbox editor  
-- 🧠 **Language Design Lessons**: Create your own Lua-like DSL  
+- 🌍 **Translations**: French 🇫🇷 versions of beginner conten
+- 🧪 **Live Code Playground**: Run Lua in-browser via a sandbox editor
+- 🧠 **Language Design Lessons**: Create your own Lua-like DSL
 - 📦 **VSCode Snippets Extension** for luaOrbiter patterns and idioms
 
 ---
@@ -63,7 +63,7 @@ Welcome to the latest updates for **luaOrbiter** a project-based Lua learning pl
 
 ## 📌 Stay Connected
 
-- ⭐ [Star or Watch the Repo](https://github.com/hetfs/luaOrbiter) for updates  
+- ⭐ [Star or Watch the Repo](https://github.com/hetfs/luaOrbiter) for updates
 
-> _“luaOrbiter isn’t just a course it’s a movement for the future of lightweight, powerful development.”_  
+>*“luaOrbiter isn’t just a course it’s a movement for the future of lightweight, powerful development.”.*
 > Team luaOrbiter

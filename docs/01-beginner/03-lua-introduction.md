@@ -6,141 +6,358 @@ sidebar_position: 3
 
 # 🌙 Introduction to Lua
 
-Welcome to LuaOrbiter - your launchpad into Lua programming! This versatile language powers everything from game AI to web servers. Let's explore why it's beloved by developers worldwide.
+Welcome to **luaOrbiter**, your launchpad into the world of Lua! This powerful yet lightweight language fuels everything from game AI to high-performance web servers. Lua continues to attract developers across industries thanks to its simplicity, speed, and versatility.
 
 ```mermaid
 graph TD
-A[Lua's Strengths] --> B[Lightweight <300KB]
+A[Why Lua Rocks] --> B[Lightweight under 300KB]
 A --> C[Blazing Fast Execution]
-A --> D[Easy C Integration]
+A --> D[Seamless C Integration]
 A --> E[Multi-paradigm Flexibility]
-```
-
-## 🚀 Why Choose Lua?
-- **Embeddable**: Integrates seamlessly with C/C++/Python
-- **Portable**: Runs on any platform with ANSI C compiler
-- **Simple**: Minimal syntax with powerful capabilities
-- **Efficient**: Register-based VM with GC optimization
-
-### Real-World Applications
-| **Domain**       | **Examples**                     |
-|------------------|----------------------------------|
-| 🎮 Game Dev      | Roblox, WoW, LÖVE2D             |
-| 🌐 Web Servers   | NGINX/OpenResty, Kong Gateway   |
-| 🔌 Embedded      | IoT devices, industrial systems |
-| 🤖 AI/ML         | Hybrid scripting layer           |
-| 🛠 Dev Tools     | Neovim, Redis, Wireshark        |
+````
 
 ---
 
-## ⚡ First Contact with Lua
+## 🚀 Why choose Lua
 
-### Interactive Mode (REPL)
+* **Embeddable**: Integrates with C/C++ and other languages
+* **Portable**: Runs on any system with an ANSI C (American National Standards Institute C) compiler
+* **Minimalist**: Small core with clear, consistent syntax
+* **Efficient**: Fast, garbage-collected, register-based VM
+
+## Real-world use cases
+
+| **Domain**     | **Examples**                             |
+| -------------- | ---------------------------------------- |
+| 🎮 Game Dev    | Roblox, WoW, LÖVE2D                      |
+| 🌐 Web Servers | NGINX (engine x)/OpenResty, Kong Gateway |
+| 🔌 Embedded    | IoT devices, firmware scripting          |
+| 🤖 AI/ML       | Configuration and control logic          |
+| 🛠 Tools       | Neovim, Redis, Wireshark                 |
+
+---
+
+## ⚡ First steps with Lua
+
+## Try the REPL (interactive mode)
+
 ```bash
-> lua -i  # Launch interpreter
-Lua 5.4.8  Copyright (C) 1994-2025 Lua.org, PUC-Rio
+> Lua -i
+Lua 5.4.8  Copyright (C) 1994-2025 Lua.org
+
 > print("Moonscript: " .. _VERSION)
 Moonscript: Lua 5.4
-> 5 + math.pi * 2  # Immediate math
+
+> 5 + math.pi * 2
 11.28318530718
+> os.exit()
 ```
 
-### Script Execution
+### Run a script
+
 1. Create `hello.lua`:
-```lua
--- First program
-io.write("Hello from ", _VERSION, "!\n")
-```
-2. Run:
-```bash
-$ lua hello.lua
-Hello from Lua 5.4!
-```
 
-### Shell-Specific Tips
-| Shell       | Command Format                          |
-|-------------|-----------------------------------------|
-| **CMD**     | `lua -e "io.write('Hello!')"`           |
-| **PowerShell** | `lua -e "io.write('Hello!')"`        |
-| **Bash**    | `lua -e 'io.write("Hello!")'`           |
+   ```lua
+   io.write("Hello from ", _VERSION, "!\n")
+   ```
 
-> 💡 Pro Tip: Use `lua -v` to verify installation. Add `#!/usr/bin/env lua` to make scripts executable.
+2. Run it:
+
+   ```bash
+   $ lua hello.lua
+   Hello from Lua 5.4!
+   ```
+
+### One-liners by shell
+
+| Shell                    | Command                       |
+| ------------------------ | ----------------------------- |
+| **Command Prompt (CMD)** | `lua -e "io.write('Hello!')"` |
+| **PowerShell**           | `lua -e "io.write('Hello!')"` |
+| **Bash**                 | `lua -e 'io.write("Hello!")'` |
+
+> 💡 **Tip**: Use `lua -v` to check your Lua version. Add `#!/usr/bin/env lua` to make scripts executable.
 
 ---
 
-## 🔠 Lua Syntax Fundamentals
+## 🔤 Lexical conventions
 
-### Building Blocks (Tokens)
+Lua treats source code as free-form and case-sensitive, ignoring spaces and comments between tokens unless needed as delimiters. It recognizes these whitespace characters from the ASCII (American Standard Code for Information Interchange) set:
+
+* Space, form feed, newline, carriage return, horizontal tab, vertical tab
+
+The following section outlines Lua’s basic building blocks:
+
+---
+
+## 🧱 1. Tokens
+
+Tokens are the smallest components of code with meaning.
+
+## 🔹 Identifiers
+
+Names for variables, functions, and fields.
+
+✅ Valid:
+
 ```lua
-score = 100  -- Tokens: [identifier] [operator] [number]
+player_score = 100
+_calculateTotal = true
 ```
-- **Keywords**: `if`, `function`, `local` (reserved words)
-- **Identifiers**: `playerHealth`, `calculate_score`
-- **Literals**: `"text"`, `3.14`, `true`
-- **Operators**: `+`, `..`, `==`
-- **Delimiters**: `()`, `{}`, `[]`
 
-### Naming Rules
+❌ Not allowed:
+
 ```lua
-local max_speed = 100  -- Valid
-local 3d_position = nil  -- INVALID (starts with number)
+3dModel = "error"      -- Starts with a digit
+function = "oops"      -- Uses a keyword
 ```
-- Start with letter/underscore
-- Contain letters, numbers, underscores
-- Case-sensitive (`Score ≠ score`)
-- Avoid reserved words
 
-### Comments
+**Rules**:
+
+* Start with a letter or underscore
+* Followed by letters, digits, or underscores
+* Can't use reserved keywords
+* Case-sensitive: `and` ≠ `And` ≠ `AND`
+
+> ⚠️ **Convention**: Avoid names starting with underscore + uppercase letters (e.g., `_VERSION`)
+
+## 🔹 Reserved keywords
+
+| Type         | Keywords                                                                              |
+| ------------ | ------------------------------------------------------------------------------------- |
+| Control Flow | `if`, `else`, `then`, `end`, `while`, `repeat`, `until`, `break`, `do`, `for`, `goto` |
+| Logic        | `and`, `or`, `not`                                                                    |
+| Declarations | `local`, `function`, `return`, `in`                                                   |
+| Constants    | `true`, `false`, `nil`                                                                |
+
+> 🔎 `nil` = no value; `false` = Boolean false
+
+## 🔹 Literals
+
+Values written directly in code.
+
 ```lua
--- Single-line comment
+"Hello"           -- String
+[[Raw block]]     -- Multiline string
+42                -- Integer
+0x1.8p3           -- Hex float
+true, false, nil  -- Boolean and nil
+```
 
+---
+
+## ⚙️ 2. Operators
+
+| Type           | Symbols                      |
+| -------------- | ---------------------------- |
+| Arithmetic     | `+` `-` `*` `/` `%` `^` `//` |
+| Comparison     | `==` `~=` `<` `>` `<=` `>=`  |
+| Logical        | `and` `or` `not`             |
+| Concatenation  | `..`                         |
+| Assignment     | `=`                          |
+| Bitwise (5.3+) | `&` `\|` `~` `<<` `>>`       |
+| Length         | `#`                          |
+
+---
+
+## 🧩 3. Symbols and delimiters
+
+Used to group and structure Lua code:
+
+* `()` for grouping and function calls
+* `{}` for table creation
+* `[]` for indexing
+* `;` optional statement separator
+* `:` method call
+* `::label::` for `goto`
+* `,` comma separator
+* `.` table field access
+* `...` expression for passing multiple unnamed arguments
+
+---
+
+## 🧵 Strings in Lua
+
+Lua supports two types of strings:
+
+### 🔸 Short strings
+
+Quoted and supports escapes:
+
+```lua
+"Line\nBreak"
+'Tabbed\tText'
+"\x41\x42"    -- AB (hex escape)
+'\117'        -- 'u' (decimal escape)
+'\u{1F600}'   -- 😀 (Unicode)
+```
+
+### 🔸 Long strings (block strings)
+
+Great for raw, multi-line text with bracket levels:
+
+```lua
+[==[
+  Multiline
+  [[Nested brackets are OK]]
+  Text
+]==]
+```
+
+* Level matching with equal signs: `[= =]`, `[== ==]`, etc.
+* Features:
+
+  * Ignore all escape sequences
+  * Convert EOL (End of Line) sequences to newline
+  * Ignore newline immediately after opening bracket
+  * Can contain any text except matching closing bracket
+
+---
+
+### 🧪 String Declaration Examples
+
+<details>
+<summary>📦 String Definitions and Outputs (click to expand)</summary>
+
+```lua
+-- Examples of different ways to define strings in Lua:
+
+s1 = 'alo\n123"'         -- Uses single quotes, \n adds a newline, " is just a quote inside the string
+print(s1)
+-- Output:
+-- alo
+-- 123"
+
+s2 = "alo\n123\""        -- Uses double quotes, escapes the inner quote with \"
+print(s2)
+-- Output:
+-- alo
+-- 123"
+
+s3 = '\97lo\10\04923"'   -- Uses ASCII decimal escapes: \97 = 'a', \10 = newline, \049 = '1'
+print(s3)
+-- Output:
+-- alo
+-- 123"
+
+s4 = [[alo
+123"]]                  -- Long bracket string: raw multiline, no escape sequences needed
+print(s4)
+-- Output:
+-- alo
+-- 123"
+
+s5 = [==[
+alo
+123"]
+]==]                    -- Long bracket string with custom delimiters: useful if the string contains ]]
+print(s5)
+-- Output:
+-- alo
+-- 123"]
+```
+
+🔍 **Why use different styles?**
+
+* Use `'` or `"` for short strings with escape characters like `\n`, `\"`, or `\\`.
+* Use `[[...]]` or `[===[...]===[` for raw multiline strings—ideal for embedded content, HTML, or config text.
+* Use ASCII escapes (like `\97` or `\10`) when dynamically building strings from byte values.
+
+</details>
+
+---
+
+## 💬 Comments
+
+### 🔸 Single-line
+
+```lua
+-- This is a short comment
+```
+
+### 🔸 Block (multi-line)
+
+```lua
 --[[
-  Multi-line comment
-  Preserves formatting
---]]
-
---[=[
-  Nested [[comments]] work too!
-]=]
+  Long comment spanning
+  multiple lines
+]]
 ```
 
-### Reserved Keywords
-|          |         |         |         |
-|----------|---------|---------|---------|
-| `and`    | `break` | `do`    | `else`  |
-| `false`  | `for`   | `function`| `if`  |
-| `nil`    | `not`   | `or`    | `return`|
-| `true`   | `while` | `local` | `end`   |
+### 🔸 Nested comments
+
+```lua
+--[==[
+  [[Nested]] comments
+  --[=[More nesting]=]
+]==]
+```
+
+### 🔸 Toggle block (debug)
+
+```lua
+---[[
+print("This code is active when uncommented")
+--]]
+```
 
 ---
 
-## ✨ What Makes Lua Unique?
-1. **Tables**: Single data structure for arrays/dictionaries/objects
-2. **1-based indexing**: First element at position 1
-3. **Metatables**: Customize type behaviors
-4. **Coroutines**: Cooperative multitasking
-5. **Tail Calls**: Optimized recursion
+## 🔢 Numeric constants
 
-### Lua vs. Other Languages
-| **Feature**       | Lua       | Python     | JavaScript |
-|-------------------|-----------|------------|------------|
-| Embedding         | ★★★★★     | ★★☆☆☆      | ★☆☆☆☆      |
-| Startup Time      | Instant   | Moderate   | Fast       |
-| Memory Footprint  | ~300KB    | ~25MB      | ~10MB      |
-| Learning Curve    | Gentle    | Moderate   | Steep      |
-| Game Modding      | Industry Standard | Limited | Browser-based |
+Lua automatically detects numeric types:
+
+```lua
+42
+0xFF
+3.14159
+6.02e23
+0x1.2p4
+0xA23p-4
+```
 
 ---
 
-## ✅ Lesson Checklist
-- [ ] Ran code in interactive mode
-- [ ] Executed a Lua script file
-- [ ] Identified basic tokens
-- [ ] Used valid identifiers
-- [ ] Marked complete in [Progress Tracker](./02-beginner-checklist.md)
+## 🧑‍🏫 Syntax best practices
 
-> "Lua is the Swiss Army knife of scripting - small enough to fit anywhere, powerful enough to solve complex problems."  
-> – Game Developer, AAA Studio
+✅ Clean:
 
-📜 **License**: MIT-like (free for all uses)  
-🌐 **Official Site**: [lua.org](https://www.lua.org)
+```lua
+local max_speed = 120
+if score >= high_score then
+  print("New record!")
+end
+```
+
+❌ Messy:
+
+```lua
+local function = "bad"  -- Reserved keyword
+local 2ndPlayer = nil   -- Invalid identifier
+```
+
+---
+
+## 🔍 Syntax validation
+
+Use this command to check token structure and syntax:
+
+```bash
+luac -p -l your_script.lua
+```
+
+---
+
+## ✅ Lesson checklist
+
+* [ ] Ran Lua in REPL mode
+* [ ] Created and ran a Lua script
+* [ ] Identified valid and problematic tokens
+* [ ] Practiced writing identifiers
+* [ ] Marked this lesson in the [Progress Tracker](./02-beginner-checklist.md)
+
+> 🗣 "Lua is the Swiss Army knife of scripting—small enough to embed anywhere, powerful enough to run the show."
+> – AAA Game Developer
+
+📜 **License**: MIT (Massachusetts Institute of Technology)–like license (free for all uses)
+🔗 **Official Site**: [lua.org](https://www.lua.org)

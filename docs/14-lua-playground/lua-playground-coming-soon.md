@@ -7,7 +7,7 @@ description: The interactive Lua Playground is coming to luaOrbiter — learn an
 
 # 🧪 Lua Playground is Coming Soon!
 
-We’re excited to announce that the **interactive Lua Playground** is coming to `luaOrbiter` — a built-in environment to write, run, and experiment with Lua **directly in your browser**.
+We’re excited to announce that the **interactive Lua Playground** is coming to `luaOrbiter`  a built-in environment to write, run, and experiment with Lua **directly in your browser**.
 
 ---
 
@@ -17,10 +17,10 @@ The new **Lua Playground** will bring a smooth, instant coding experience to eve
 
 Powered by [**Fengari**](https://fengari.io/), a Lua 5.3 engine compiled to WebAssembly, the playground will allow you to:
 
-✅ Write Lua code in the browser  
-✅ See results instantly with zero setup  
-✅ Follow lessons and practice side-by-side  
-✅ Use any device — desktop, tablet, or mobile  
+✅ Write Lua code in the browser
+✅ See results instantly with zero setup
+✅ Follow lessons and practice side-by-side
+✅ Use any device desktop, tablet, or mobile
 
 ---
 
@@ -95,8 +95,8 @@ We welcome contributors! You can:
 
 ## 🌍 Learn Lua, Live
 
-The Lua Playground is about **removing barriers** — so you can start coding without ever leaving the page.
+The Lua Playground is about **removing barriers** so you can start coding without ever leaving the page.
 
 It’s coming very soon. Stay tuned.
 
-> *“Lua is light. Learning it should be too.”* — Team `luaOrbiter`
+> *“Lua is light. Learning it should be too.”* Team `luaOrbiter`

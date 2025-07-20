@@ -39,10 +39,10 @@ The luaOrbiter curriculum progresses through five structured levels. Follow them
 
 | Level              | What you will learn                                            | Suggested duration |
 | ------------------ | -------------------------------------------------------------- | ------------------ |
-| 👶 Beginner        | Syntax, tables, control flow, basic functions                  | 2–4 weeks          |
-| 👨‍💻 Intermediate | Modules, metatables, coroutines, JSON handling                 | 8–12 weeks         |
-| 👨‍🏫 Advanced     | LuaJIT, foreign function interface, profiling, C bindings      | 4–6 months         |
-| 🧠 Expert          | Domain-specific languages, VM internals, Sandboxing, compilers | 1–2 years          |
+| 👶 Beginner        | Syntax, tables, control flow, basic functions                  | 1–2 weeks          |
+| 👨‍💻 Intermediate | Modules, metatables, coroutines, JSON handling                 | 4–6 weeks         |
+| 👨‍🏫 Advanced     | LuaJIT, foreign function interface, profiling, C bindings      | 2–3 months         |
+| 🧠 Expert          | Domain-specific languages, VM internals, Sandboxing, compilers | 6 months - 1 years          |
 | 💼 Professional    | Real-world tooling, AI pipelines, embedded systems             | Career-oriented    |
 
 Featured projects include:
@@ -55,7 +55,7 @@ Featured projects include:
 
 ---
 
-## 🎯 Step 3: Choose a specialization track (optional)
+## 🎯 Step 3: Choose a specialization track
 
 After learning the core concepts, consider exploring a specialization that aligns with your goals.
 
@@ -105,7 +105,7 @@ luaOrbiter operates as an open-source, community-driven platform.
 
 ---
 
-## 📦 Bonus for advanced learners: Use `luaDev`
+## 📦 Bonus for advanced learners
 
 Install [`luaDev`](https://github.com/hetfs/luaDev) to gain full control over Lua and LuaJIT compilation and tooling.
 
@@ -139,4 +139,4 @@ With `luaDev`, you can:
 
 > *“This course serves as a launchpad into real-world Lua development.”*
 >
-> The luaOrbiter team
+> **The luaOrbiter team**
