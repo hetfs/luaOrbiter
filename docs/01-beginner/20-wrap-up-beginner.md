@@ -1,7 +1,7 @@
 ---
-id: 09-wrap-up-beginner
+id: 20-wrap-up-beginner
 title: Wrap-Up & What's Next
-sidebar_position: 9
+sidebar_position: 20
 ---
 
 # 🎉 Beginner Journey Complete!

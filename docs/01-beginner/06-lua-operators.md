@@ -1,7 +1,7 @@
 ---
-id: 05-lua-operators.md
+id: 06-lua-operators.md
 title: Lua Operators
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # 🧮 Lua Operators
@@ -10,7 +10,7 @@ Lua offers a powerful and flexible set of operators for performing mathematical 
 
 ---
 
-### 🔢 Arithmetic Operators
+## 🔢 Arithmetic Operators
 
 Arithmetic operators perform basic mathematical operations. Lua handles automatic conversion between integers and floats behind the scenes.
 
@@ -33,7 +33,7 @@ print(2 ^ 8)     --> 256
 
 ---
 
-### ⚖️ Relational Operators
+## ⚖️ Relational Operators
 
 Relational operators compare values and return a boolean result: `true` or `false`.
 
@@ -55,7 +55,7 @@ Relational operators compare values and return a boolean result: `true` or `fals
 
 ---
 
-### 🧠 Logical Operators
+## 🧠 Logical Operators
 
 Logical operators work with **truthy** and **falsey** values:
 
@@ -81,7 +81,7 @@ result = (score > 50) and "Pass" or "Fail"
 
 ---
 
-### 📏 Length Operator (`#`)
+## 📏 Length Operator (`#`)
 
 Returns the length of:
 
@@ -107,7 +107,7 @@ print(#sparse)     --> 1, 3, or 5 (unspecified)
 
 ---
 
-### 🔗 Concatenation Operator (`..`)
+## 🔗 Concatenation Operator (`..`)
 
 Used to join strings. Automatically converts numbers to strings when needed.
 
@@ -128,7 +128,7 @@ print(t .. t)  --> 10
 
 ---
 
-### ⚙️ Bitwise Operators
+## ⚙️ Bitwise Operators
 
 Perform operations on the binary (bitwise) representations of integers. Available since Lua 5.3+.
 
@@ -152,7 +152,7 @@ print(string.format("%x", rgb(255, 128, 0)))  --> ff8000
 
 ---
 
-### 📊 Operator Precedence
+## 📊 Operator Precedence
 
 Operators follow a specific order of evaluation, from highest to lowest precedence:
 
@@ -178,7 +178,7 @@ result = 5 + 2 * 3 ^ 2
 
 ---
 
-### 🔄 Type Coercion Rules
+## 🔄 Type Coercion Rules
 
 Lua performs automatic type conversion in specific contexts:
 

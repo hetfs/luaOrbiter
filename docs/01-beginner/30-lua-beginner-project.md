@@ -1,7 +1,7 @@
 ---
-id: 08-lua-beginner-project
+id: 30-lua-beginner-project
 title: Project – Build a Text Adventure Game
-sidebar_position: 8
+sidebar_position: 30
 ---
 
 # 🧭 Project: Text Adventure Game

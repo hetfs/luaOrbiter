@@ -1,7 +1,7 @@
 ---
 id: 07-lua-tables
 title: Tables (Arrays & Dictionaries)
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 # 🧺 Tables in Lua

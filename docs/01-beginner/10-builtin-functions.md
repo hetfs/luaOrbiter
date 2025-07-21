@@ -1,7 +1,7 @@
 ---
 id: 10-builtin-functions
 title: Built-in Functions in Lua
-sidebar_position: 6
+sidebar_position: 10
 ---
 
 # 🧰 Built-in Functions in Lua

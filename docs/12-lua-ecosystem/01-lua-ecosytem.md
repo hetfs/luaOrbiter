@@ -23,7 +23,7 @@ graph LR
   A --> C[Game Development]
   A --> D[Cloud Infrastructure]
   A --> E[AI Orchestration]
-````
+```
 
 > 💡 Lua's minimal runtime makes it ideal for scripting inside larger applications.
 
@@ -42,15 +42,16 @@ graph LR
 
 ### 📦 Package Management
 
-* **[LuaRocks](https://luarocks.org/)** – Official package manager (3,800+ modules)
-
+* [LuaRocks](https://luarocks.org/) Official package manager (3,800+ modules)
+  
   ```bash
   luarocks install packagename
   ```
-* **Alternatives**:
 
+* **Alternatives**:
+  
   * [LuaDist](https://luadist.org/) – Binary distribution system
-  * [Lit](https://luvit.io/lit.html) – For Luvit ecosystem
+  * [Lit](https://luvit.io/lit.html)  For Luvit ecosystem
 
 ---
 

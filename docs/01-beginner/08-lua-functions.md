@@ -1,7 +1,7 @@
 ---
-id: 06-lua-functions
+id: 08-lua-functions
 title: Functions and Scope
-sidebar_position: 6
+sidebar_position: 8
 ---
 
 # 🛠️ Functions and Scope
